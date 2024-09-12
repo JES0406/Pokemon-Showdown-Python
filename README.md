@@ -10,14 +10,14 @@ The project will include features like a random team creator, a battle simulator
 - Eventually expand to multiplayer battles using Python networking libraries.
 
 ## Features
-- [ ]: Plain text simulator.
-- [ ]: Random team generator.
-- [ ]: Graphical user interface.
-- [ ]: Local multiplayer.
-- [ ]: Online multiplayer.
-- [ ]: Ranking system.
-- [x]: Database of pokemon and moves.
-- [ ]: Database of saved games and results.
+- [ ] Plain text simulator.
+- [ ] Random team generator.
+- [ ] Graphical user interface.
+- [ ] Local multiplayer.
+- [ ] Online multiplayer.
+- [ ] Ranking system.
+- [x] Database of pokemon and moves.
+- [ ] Database of saved games and results.
 
 ## Technologies
 - Python 3.12

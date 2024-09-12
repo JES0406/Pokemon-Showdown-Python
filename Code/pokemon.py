@@ -161,16 +161,16 @@ class Pokemon:
     # Methods
 
     def __str__(self):
-        print(f'{self._name} - Level {self._level} - {self._current_hp}% HP')
+        to_print = f'{self._name} - Level {self._level} - {self._current_hp}% HP'
         if self._status != None:
-            print(f' ({self._status})', end='')
-        print()
+            to_print += f' ({self._status})'
+        to_print += '\n'
         for stat in self._boosts:
             if stat == 'acc' or stat == 'eva':
                 change = 3
             else:
                 change = 2
             if self._boosts[stat] < 0:
-                print(f'{stat.upper()}: * {change/(change - self._boosts[stat])}')
+                to_print += f'{stat.upper()}: * {change/(change - self._boosts[stat])}\n'
             elif self._boosts[stat] > 0:
-                print(f'{stat.upper()}: * {(change + self._boosts[stat])/change}')
+                to_print += f'{stat.upper()}: * {(change + self._boosts[stat])/change}\n'

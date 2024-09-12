@@ -47,6 +47,8 @@ class Move:
     def accuracy(self, accuracy):
         if accuracy > 100:
             self._accuracy = 100
+        else:
+            self._accuracy = accuracy
 
     @property
     def pp(self):
@@ -56,6 +58,8 @@ class Move:
     def pp(self, pp):
         if pp > self._base_pp:
             self._pp = self._base_pp
+        else:
+            self._pp = pp
 
     @property
     def priority(self):
@@ -71,7 +75,10 @@ class Move:
     
     # Methods
     def use(self):
-        self._pp -= 1
+        if self._pp == 0:
+            raise ValueError(f'{self._name} has no PP left!')
+        else:
+            self._pp -= 1
         return self._power
     
     def __str__(self):
@@ -79,7 +86,7 @@ class Move:
         Name: {self._name}
         Type: {self._type}
         Category: {self._category}
-        Power: {self._power if self.power == self._base_power else f'{self._power} (base: {self._base_power})'}
+        Power: {self._power if self._power == self._base_power else f'{self._power} (base: {self._base_power})'}
         Accuracy: {self._accuracy}
         PP: {self._pp}/{self._base_pp}
         Priority: {self._priority}

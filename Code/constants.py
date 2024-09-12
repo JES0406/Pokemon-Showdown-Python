@@ -1,0 +1,1 @@
+status_allowed = ['PSN', 'BRN', 'FRZ', 'PAR', 'SLP', 'FNT']

@@ -54,6 +54,12 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ## Screenshots (coming soon)
 Once the project is more developed, screenshots will be added to the README.
 
+## Design decisions
+- **Csv for data storage**: For simplicity in the initial stages, the data of the Pokémon and moves will be stored in CSV files. 
+- **Object-oriented design**: The project will be designed using object-oriented programming principles to make the code more modular and easier to maintain.
+- **Separation of concerns**: The project will be divided into different modules to separate the game logic from the user interface and the data storage.
+- **Damage rounding**: The damage calculation will be rounded to the nearest integer at the end of the calculation in order to make it easier to understand and implement.
+
 ## Acknowledgements
 - The original idea of the project was inspired by the Pokémon Showdown from smogon. The main website can be found [here](https://pokemonshowdown.com/). This project is not affiliated with Pokémon Showdown or smogon.
 - Datasets of move-data and pokemon-data taken from: https://www.kaggle.com/datasets/n2cholas/competitive-pokemon-dataset?resource=download

@@ -90,7 +90,16 @@ class Pokemon:
                 print(f'{self._name} is already {self._status}!')
 
     def get_boost(self, stat):
-        return self._boosts[stat]
+        if stat == 'acc' or stat == 'eva':
+            change = 3
+        else:
+            change = 2
+        if self._boosts[stat] < 0:
+            return change / (change - self._boosts[stat])
+        elif self._boosts[stat] > 0:
+            return (change + self._boosts[stat]) / change
+        else:
+            return 1
 
     def set_boost(self, stat, value):
         self._boosts[stat] += value

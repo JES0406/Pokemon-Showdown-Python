@@ -8,7 +8,7 @@ class Move:
     def __init__(self, name: str, type: str, category: str, power: int, accuracy: int, pp: int, priority: int, target: str, effect: str):
         self._name = name
         self._type = type
-        self._category = category
+        self._category = category # Physical, Special, or Status
         self._base_power = power
         self._power = power
         self._accuracy = accuracy

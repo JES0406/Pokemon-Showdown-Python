@@ -5,9 +5,10 @@ A Pokemon has stats, moves, level, and other relevant information.
 """
 
 from Code.constants import status_allowed
+from Code.move import Move
 
 class Pokemon:
-    def __init__(self, name: str, level: int, type: list, ability: str, gender: str, stats: dict, moves: list, shyniness: bool, item: str):
+    def __init__(self, name: str, level: int, type: list, ability: str, gender: str, stats: dict, moves: list[Move], shyniness: bool, item: str):
         self._name = name
         self._level = level
         self._type = type
@@ -17,6 +18,7 @@ class Pokemon:
         self._shyniness = shyniness
         self._current_hp = 100
         self._status = None
+        self._gender = gender
         self._boosts = {
             'atk': 0,
             'def': 0,
@@ -74,6 +76,7 @@ class Pokemon:
         elif self._current_hp < 0:
             self._current_hp = 0
             self._status = 'FNT'
+            print(f'{self._name} has fainted!')
 
     @property
     def status(self):
@@ -82,12 +85,12 @@ class Pokemon:
     @status.setter
     def status(self, value):
         if value not in status_allowed:
-            print(f'{value} is not a valid status condition!')
+            raise ValueError(f'{value} is not a valid status condition!')
         else:
             if self._status is None:
                 self._status = value
             else:
-                print(f'{self._name} is already {self._status}!')
+                raise ValueError(f'{self._name} is already {self._status}!')
 
     def get_boost(self, stat):
         if stat == 'acc' or stat == 'eva':
@@ -104,11 +107,12 @@ class Pokemon:
     def set_boost(self, stat, value):
         self._boosts[stat] += value
         if self._boosts[stat] > 6:
-            print(f"{self._name}'s {stat} can't go any higher!")
             self._boosts[stat] = 6
+            raise ValueError(f"{self._name}'s {stat} can't go any higher!")
+            
         elif self._boosts[stat] < -6:
-            print(f"{self._name}'s {stat} can't go any lower!")
             self._boosts[stat] = -6
+            raise ValueError(f"{self._name}'s {stat} can't go any lower!")
 
     @property
     def mega_evolved(self):

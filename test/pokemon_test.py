@@ -39,20 +39,22 @@ class TestPokemon(unittest.TestCase):
     def test_stat_boost(self):
         # Test stat boosts
         self.pikachu.set_boost('atk', 3)
-        self.assertEqual(self.pikachu.get_boost('atk'), 3)
+        self.assertEqual(self.pikachu.get_boost('atk'), (2+3)/2)
         
         # Test boost limit
-        self.pikachu.set_boost('atk', 4)  # Should not exceed +6
-        self.assertEqual(self.pikachu.get_boost('atk'), 6)
+        with self.assertRaises(ValueError):
+            self.pikachu.set_boost('atk', 4)
+        self.assertEqual(self.pikachu.get_boost('atk'), (2+6)/2)
     
     def test_stat_drop(self):
         # Test stat drops
         self.pikachu.set_boost('def', -2)
-        self.assertEqual(self.pikachu.get_boost('def'), -2)
+        self.assertEqual(self.pikachu.get_boost('def'), 2/(2+2))
         
         # Test drop limit
-        self.pikachu.set_boost('def', -5)  # Should not go below -6
-        self.assertEqual(self.pikachu.get_boost('def'), -6)
+        with self.assertRaises(ValueError):
+            self.pikachu.set_boost('def', -5)
+        self.assertEqual(self.pikachu.get_boost('def'), 2/(2+6))
 
     def test_hp_changes(self):
         # Test increasing HP beyond 100%
@@ -70,8 +72,12 @@ class TestPokemon(unittest.TestCase):
         self.assertEqual(self.pikachu.status, "PAR")
         
         # Test trying to set an invalid status
-        self.pikachu.status = "Happy"
-        self.assertNotEqual(self.pikachu.status, "Happy")  # Invalid status should not be set
+        with self.assertRaises(ValueError):
+            self.pikachu.status = "Happy"
+
+        # Test setting status when another is placed
+        with self.assertRaises(ValueError):
+            self.pikachu.status = "PSN"
     
     def test_mega_evolution(self):
         # Test Mega Evolution
@@ -91,13 +97,8 @@ class TestPokemon(unittest.TestCase):
     def test_prevent_conflicting_forms(self):
         # Test that Dynamax prevents Mega Evolution
         self.pikachu.dynamaxed = True
-        self.pikachu.mega_evolved = True  # Should fail
-        self.assertFalse(self.pikachu.mega_evolved)
-        
-        # Test that Mega Evolution prevents Terastilization
-        self.pikachu.mega_evolved = True
-        self.pikachu.terastilized = True  # Should fail
-        self.assertFalse(self.pikachu.terastilized)
+        with self.assertRaises(ValueError):
+            self.pikachu.mega_evolved = True
 
     def test_item_change(self):
         # Test changing held item

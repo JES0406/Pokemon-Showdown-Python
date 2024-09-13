@@ -23,6 +23,7 @@ class Player:
         self._terastization = False
         self._mega_evolution = False
         self._dynamaxing = False
+        self._move = None
 
     # Setters and getters
     @property
@@ -75,3 +76,18 @@ class Player:
             raise ValueError('Dynamaxing already used')
         self._team[self._current_pokemon].dynamaxed = True
         self._dynamaxing = dynamaxing
+
+    @property
+    def move(self):
+        return self._move
+    
+    @move.setter
+    def move(self, move_index):
+        if move_index < 0 or move_index >= len(self._team[self._current_pokemon].moves):
+            raise IndexError('Invalid move index')
+        self._move = self._team[self._current_pokemon].moves[move_index]
+
+    # Methods
+    def __str__(self):
+        return f'Player {self._name} with team {self._team}'
+    

@@ -65,6 +65,13 @@ class Move:
     def priority(self):
         return self._priority
     
+    @priority.setter
+    def priority(self, priority):
+        if abs(priority) > 4:
+            self._priority = 4 if priority > 0 else -4
+        else:
+            self._priority = priority
+    
     @property
     def target(self):
         return self._target

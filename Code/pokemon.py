@@ -117,9 +117,9 @@ class Pokemon:
     @mega_evolved.setter
     def mega_evolved(self, value):
         if self._dynamaxed:
-            print(f'{self._name} is already Dynamaxed!')
+            raise ValueError(f'{self._name} is already Dynamaxed!')
         elif self._terastilized:
-            print(f'{self._name} is already Terastilized!')
+            raise ValueError(f'{self._name} is already Terastilized!')
         else:
             self._mega_evolved = value
 
@@ -134,9 +134,9 @@ class Pokemon:
     @dynamaxed.setter
     def dynamaxed(self, value):
         if self._mega_evolved:
-            print(f'{self._name} is already Mega Evolved!')
+            raise ValueError(f'{self._name} is already Mega Evolved!')
         elif self._terastilized:
-            print(f'{self._name} is already Terastilized!')
+            raise ValueError(f'{self._name} is already Terastilized!')
         else:
             self._dynamaxed = value
 
@@ -147,9 +147,9 @@ class Pokemon:
     @terastilized.setter
     def terastilized(self, value):
         if self._mega_evolved:
-            print(f'{self._name} is already Mega Evolved!')
+            raise ValueError(f'{self._name} is already Mega Evolved!')
         elif self._dynamaxed:
-            print(f'{self._name} is already Dynamaxed!')
+            raise ValueError(f'{self._name} is already Dynamaxed!')
         else:
             self._terastilized = value
 

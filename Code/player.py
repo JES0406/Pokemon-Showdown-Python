@@ -2,7 +2,7 @@
 module for player class
 
 The player class is used to represent a player in the game.
-The player has attributes such as name, team, and current pokemon and terastization, mega evolution and dynamaaxing flags.
+The player has attributes such as name, team, and current pokemon and terastization, mega evolution and dynamaxing flags.
 '''
 
 from Code.pokemon import Pokemon
@@ -12,10 +12,17 @@ class Player:
     def __init__(self, name: str, team: list[Pokemon]):
         self._name = name
         self._team = team
-        self._current_pokemon = 0
+        def team_validations():
+            if len(self._team) < 1 or len(self._team) > 6:
+                raise ValueError('A team must have between 1 and 6 pokemon.')
+            for pokemon in self._team:
+                if not isinstance(pokemon, Pokemon):
+                    raise ValueError('A team must be formed by pokemon.')
+        team_validations()
+        self._current_pokemon = 0 # Default current pokemon is the first one
         self._terastization = False
         self._mega_evolution = False
-        self._dynamaaxing = False
+        self._dynamaxing = False
 
     # Setters and getters
     @property
@@ -32,6 +39,8 @@ class Player:
     
     @current_pokemon.setter
     def current_pokemon(self, pokemon_index):
+        if pokemon_index < 0 or pokemon_index >= len(self._team):
+            raise IndexError('Invalid pokemon index')
         self._current_pokemon = pokemon_index
     
     @property
@@ -40,6 +49,9 @@ class Player:
     
     @terastization.setter
     def terastization(self, terastization):
+        if self._terastization and terastization:
+            raise ValueError('Terastization already used')
+        self._team[self._current_pokemon].terastilized = True
         self._terastization = terastization
     
     @property
@@ -48,12 +60,18 @@ class Player:
     
     @mega_evolution.setter
     def mega_evolution(self, mega_evolution):
+        if self._mega_evolution and mega_evolution:
+            raise ValueError('Mega evolution already used')
+        self._team[self._current_pokemon].mega_evolved = True
         self._mega_evolution = mega_evolution
     
     @property
-    def dynamaaxing(self):
-        return self._dynamaaxing
+    def dynamaxing(self):
+        return self._dynamaxing
     
-    @dynamaaxing.setter
-    def dynamaaxing(self, dynamaaxing):
-        self._dynamaaxing = dynamaaxing
+    @dynamaxing.setter
+    def dynamaxing(self, dynamaxing):
+        if self._dynamaxing and dynamaxing:
+            raise ValueError('Dynamaxing already used')
+        self._team[self._current_pokemon].dynamaxed = True
+        self._dynamaxing = dynamaxing

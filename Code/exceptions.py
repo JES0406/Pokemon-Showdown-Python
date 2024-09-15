@@ -1,0 +1,2 @@
+class ReturnBackException(Exception):
+    pass

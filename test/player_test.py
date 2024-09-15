@@ -107,6 +107,26 @@ class TestPlayer(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.player.terastization = True  # Bulbasaur cannot be Terastallized after Dynamaxing
 
+    def test_switch_logic(self):
+        # Test if Pokémon can be switched correctly
+        initial_pokemon = self.player.current_pokemon
+        self.player.switch_pokemon(1)  # Switch to Charizard
+        self.assertNotEqual(self.player.current_pokemon, initial_pokemon)  # Pokémon should change
+        self.assertEqual(self.player.current_pokemon.name, "Charizard")
+
+    def test_invalid_switch_logic(self):
+        # Test invalid switch cases
+        with self.assertRaises(IndexError):
+            self.player.switch_pokemon(3)  # Attempt to switch to an invalid index
+
+        with self.assertRaises(ValueError):
+            self.player.switch_pokemon(0)  # Attempt to switch to the current Pokémon
+
+        self.player.current_pokemon.current_hp = -100
+        self.player.current_pokemon = 1
+        with self.assertRaises(ValueError):
+            self.player.switch_pokemon(0)  # Attempt to switch to a fainted Pokémon
+
 
 if __name__ == '__main__':
     unittest.main()

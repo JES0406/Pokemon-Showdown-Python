@@ -24,6 +24,7 @@ class Player:
         self._mega_evolution = False
         self._dynamaxing = False
         self._move = None
+        self._switch = False
 
     # Setters and getters
     @property
@@ -87,7 +88,28 @@ class Player:
             raise IndexError('Invalid move index')
         self._move = self._team[self._current_pokemon].moves[move_index]
 
+    @property
+    def switch(self):
+        return self._switch
+    
+    @switch.setter
+    def switch(self, switch):
+        if type(switch) != bool:
+            raise ValueError('Switch must be a boolean')
+        self._switch = switch
+
     # Methods
     def __str__(self):
         return f'Player {self._name} with team {self._team}'
     
+    def switch_pokemon(self, pokemon_index: int):
+        if pokemon_index < 0 or pokemon_index >= len(self._team):
+            raise IndexError('Invalid pokemon index')
+        elif self._team[pokemon_index].status == 'FNT':
+            raise ValueError('Cannot switch to a fainted pokemon')
+        elif pokemon_index == self._current_pokemon:
+            raise ValueError('Pokemon is already on the field')
+        self._current_pokemon = pokemon_index
+        self.switch = True
+        # print(f'Player {self._name} switched to:')
+        # print(f'{self._team[self._current_pokemon]}')

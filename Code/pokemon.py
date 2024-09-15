@@ -73,7 +73,7 @@ class Pokemon:
         self._current_hp += value
         if self._current_hp > 100:
             self._current_hp = 100
-        elif self._current_hp < 0:
+        elif self._current_hp <= 0:
             self._current_hp = 0
             self._status = 'FNT'
             print(f'{self._name} has fainted!')

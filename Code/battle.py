@@ -9,6 +9,7 @@ The players take turns to select a move for their Pokemon to use. The move is th
 from Code.pokemon import Pokemon
 from Code.move import Move
 from Code.player import Player
+from Code.exceptions import ReturnBackException
 import random
 
 class Battle:
@@ -134,42 +135,67 @@ class Battle:
         # To be implemented
         pass
 
-    def switch_pokemon(self, player: Player, pokemon_index: int):
-        player.current_pokemon = pokemon_index
-
     def get_info(self, player: Player):
         # Get information about the current player's Pokemon
         print(player.current_pokemon)
         for i, move in enumerate(player.current_pokemon.moves):
             print(f"{i+1}. {move}")
 
+    def move_logic(self, player: Player):
+        while 1:
+            move_index = int(input(f"Player {player.name}, choose a move (0-{len(player.current_pokemon.moves)-1}), or -1 to cancel: "))
+            try:
+                if move_index == -1:
+                    raise ReturnBackException("Move cancelled")
+                player.move = move_index  # Set the move using the player's setter
+                return player.move
+            except ValueError as e:
+                print(e)
+
+    def switch_logic(self, player: Player):
+        while 1:
+            pokemon_index = int(input(f"Player {player.name}, choose a Pokemon to switch to (0-{len(player.team)-1}), or -1 to cancel: "))
+            try:
+                if pokemon_index == -1:
+                    raise ReturnBackException("Switch cancelled")
+                player.switch_pokemon(pokemon_index)  # Switch to the chosen Pokemon
+            except ValueError as e:
+                print(e)
+
+    def order_input(self, player: Player):
+        order = 3
+        while order == 3:
+            try:
+                player.switch = False
+                order = input(f"""Player {player.name}, choose:\n1. Move\n2. Switch Pokemon\n3. Get Info\n""")
+                if order == "1":
+                    self.move_logic(player)
+                elif order == "2":
+                    self.switch_logic(player)
+                elif order == "3":
+                    self.get_info(player)
+                else:
+                    print("Invalid input. Please try again.")
+            except ReturnBackException as e:
+                print(e)
+                order = 3
+
     def run(self, testing=False):
         while self.winner is None:
             # Get and validate moves for both players
-            moves = []
-            for i, player in enumerate(self._players):
-                valid = False
-                print(f"Player {i+1}'s turn!")
-                order = 3
-                while not valid or order == 3:
-                    order = input(f"""Player {i+1}, choose:\n1. Move\n2. Switch Pokemon\n3. Get Info\n""")
-                    if order == "1":
-                        move_index = int(input(f"Player {i+1}, choose a move (0-{len(player.current_pokemon.moves)-1}): "))
-                        try:
-                            player.move = move_index  # Set the move using the player's setter
-                            moves.append(player.move)
-                            valid = True
-                        except ValueError as e:
-                            print(e)
-                    elif order == "2":
-                        pass # To be implemented
-                    elif order == "3":
-                        self.get_info(player)
-                    else:
-                        print("Invalid input. Please try again.")
+            for player in self._players:
+                print(f"Player {player.name}'s turn!")
+                self.order_input(player)
 
             # Determine the turn order based on the moves
-            self.turn_order(self._players[0].move, self._players[1].move)
+            players = [0, 1]
+            for i, player in enumerate(self._players):
+                if player.switch:
+                    players.remove(i)
+            if len(players) == 2:
+                self.turn_order(self._players[0].move, self._players[1].move)
+            else:
+                self._current_turn_order = players
 
             # Execute moves in the determined turn order
             for i in self._current_turn_order:

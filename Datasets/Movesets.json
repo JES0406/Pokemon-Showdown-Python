@@ -25767,8 +25767,7 @@
                 }
             }
         }
-    }
-}{
+    },
     "Absol": {
         "level": 84,
         "abilities": {
@@ -26936,7 +26935,7 @@
             "atk": 0
         }
     },
-    "Farfetch\u00e2\u20ac\u2122d": {
+    "Farfetch\u2019d": {
         "level": 91,
         "abilities": {
             "Defiant": 1
@@ -28662,7 +28661,7 @@
             "Parting Shot": 0.5388
         }
     },
-    "Sirfetch\u00e2\u20ac\u2122d": {
+    "Sirfetch\u2019d": {
         "level": 82,
         "abilities": {
             "Scrappy": 1
@@ -29461,8 +29460,7 @@
             "Extreme Speed": 0.609,
             "Iron Tail": 0.5987
         }
-    }
-}{
+    },
     "Beautifly": {
         "level": 88,
         "abilities": {
@@ -29941,8 +29939,7 @@
         "ivs": {
             "atk": 0
         }
-    }
-}{
+    },
     "Abomasnow-Mega": {
         "level": 84,
         "abilities": {
@@ -32265,8 +32262,7 @@
                 }
             }
         }
-    }
-}{
+    },
     "Eevee-Starter": {
         "level": 100,
         "moves": {
@@ -32405,8 +32401,7 @@
         "ivs": {
             "atk": 0
         }
-    }
-}{
+    },
     "Murkrow": {
         "level": 90,
         "abilities": {
@@ -32434,8 +32429,7 @@
                 }
             }
         }
-    }
-}{
+    },
     "Dragonair": {
         "level": 88,
         "abilities": {
@@ -32516,8 +32510,7 @@
         "ivs": {
             "atk": 0
         }
-    }
-}{}{
+    },
     "Aipom": {
         "level": 93,
         "abilities": {
@@ -32875,8 +32868,7 @@
             "spa": 30,
             "spd": 30
         }
-    }
-}{
+    },
     "Poliwhirl": {
         "level": 79,
         "items": {
@@ -32916,8 +32908,7 @@
                 }
             }
         }
-    }
-}{
+    },
     "Abra": {
         "level": 84,
         "moves": {

@@ -25,20 +25,20 @@ class RawMovesetProcessor:
 
     def process(self):
         for path in self.paths:
-            self.pokemon_data = {}
             n_before = len(self.pokemon_names)
-            with open(path, 'r') as file:
+            with open(path, 'r', encoding='utf-8') as file:
                 data = json.load(file)
                 self.process_data(data)
-                json.dump(self.pokemon_data, open('Datasets/Movesets.json', 'a'), indent=4)
 
             print(f'Processed {path}, {len(self.pokemon_names) - n_before} new pokemon')
+        json.dump(self.pokemon_data, open('Datasets/Movesets.json', 'a'), indent=4)
         print(f'Total pokemon: {len(self.pokemon_names)}')
         
 
     def process_data(self, data):
         for pokemon in data.keys():
             self.process_pokemon(pokemon, data[pokemon])
+
     def process_pokemon(self, pokemon: str, data: dict):
         if pokemon not in self.pokemon_names:
             self.pokemon_names.append(pokemon)

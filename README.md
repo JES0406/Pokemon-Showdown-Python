@@ -59,9 +59,12 @@ Once the project is more developed, screenshots will be added to the README.
 - **Object-oriented design**: The project will be designed using object-oriented programming principles to make the code more modular and easier to maintain.
 - **Separation of concerns**: The project will be divided into different modules to separate the game logic from the user interface and the data storage.
 - **Damage rounding**: The damage calculation will be rounded to the nearest integer at the end of the calculation in order to make it easier to understand and implement.
+- **Pokemons available**: Using the dataset of competitive Pokémon, the project will have a list of Pokémon available to use in the game. We will prioritize the latests generations of Pokémon for building the teams.
+- **Movesets file**: The movesets are in a json file because not all pokemon have the same attributes. The movesets are stored in a json file to make it easier to access the data.
 
 ## Acknowledgements
 - The original idea of the project was inspired by the Pokémon Showdown from smogon. The main website can be found [here](https://pokemonshowdown.com/). This project is not affiliated with Pokémon Showdown or smogon.
 - Datasets of move-data and pokemon-data taken from: https://www.kaggle.com/datasets/n2cholas/competitive-pokemon-dataset?resource=download
+- Dataset of moveset from: https://github.com/pkmn/randbats/blob/main/data/
 - The project has been supported by ChatGPT and GitHub Copilot.
 ```

@@ -2,8 +2,6 @@
 Module for processing raw moveset data
 '''
 
-import json
-from Code.Utils import normalize_name
 from Code.DataProcessing.BaseProcessor import BaseProcessor
 
 class MovesetProcessor(BaseProcessor):

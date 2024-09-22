@@ -5,20 +5,15 @@ The player class is used to represent a player in the game.
 The player has attributes such as name, team, and current pokemon and terastization, mega evolution and dynamaxing flags.
 '''
 
-from Code.pokemon import Pokemon
-from Code.move import Move
+from Code.DataStructures.Team import Team
 
 class Player:
-    def __init__(self, name: str, team: list[Pokemon]):
+    def __init__(self, name: str, team: Team, id_: int):
+        self._id = id_
         self._name = name
         self._team = team
-        def team_validations():
-            if len(self._team) < 1 or len(self._team) > 6:
-                raise ValueError('A team must have between 1 and 6 pokemon.')
-            for pokemon in self._team:
-                if not isinstance(pokemon, Pokemon):
-                    raise ValueError('A team must be formed by pokemon.')
-        team_validations()
+
+        self.team_validations()
         self._current_pokemon = 0 # Default current pokemon is the first one
         self._terastization = False
         self._mega_evolution = False
@@ -26,7 +21,14 @@ class Player:
         self._move = None
         self._switch = False
 
+    def team_validations(self):
+        self._team.validate_team()
+
     # Setters and getters
+    @property
+    def id(self):
+        return self._id
+
     @property
     def name(self):
         return self._name
@@ -111,5 +113,6 @@ class Player:
             raise ValueError('Pokemon is already on the field')
         self._current_pokemon = pokemon_index
         self.switch = True
-        # print(f'Player {self._name} switched to:')
-        # print(f'{self._team[self._current_pokemon]}')
+
+    def __repr__(self) -> str:
+        return f'{self.id}, {self.name}'

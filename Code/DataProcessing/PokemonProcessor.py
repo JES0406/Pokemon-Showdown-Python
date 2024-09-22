@@ -7,6 +7,7 @@ We get all the Pokemon we need in the Pokemon.json file.
 
 from Code.Utils import normalize_name
 from Code.DataProcessing.BaseProcessor import BaseProcessor
+from Code.DataProcessing.PokemonTransformer import PokemonTransformer
 
 class PokemonProcessor(BaseProcessor):
     def __init__(self, data=None):
@@ -16,6 +17,7 @@ class PokemonProcessor(BaseProcessor):
         """
         super().__init__(data)
         self.processed_data = {}  # Stores the processed Pokémon data
+        self.transformer = PokemonTransformer()
     
     def process(self, moveset_path, data_path:str, save_path:str = 'Datasets/Pokemon.json'):
         """
@@ -72,37 +74,23 @@ class PokemonProcessor(BaseProcessor):
             print(f'Pokemon {name} not found in provided data')
         return data
 
-    def assign_tier(self, name, data):
+    def assign_tier(self, name: str, data: dict) -> dict:
         """
         Assign tier to the Pokémon, handling special cases like Keldeo.
-        :param name: Normalized Pokémon name.
-        :param data: Pokémon data dictionary.
         """
-        if "keldeo" in name: # Keldeo's alternate forms appear before the base form so we need to handle it separately
-            data['tier'] = 'OU'
-        elif 'tier' not in data:
+        if 'tier' not in data:
             if 'baseSpecies' in data:
                 base_species = normalize_name(data['baseSpecies'])
-                if base_species in self.processed_data:
-                    data['tier'] = self.processed_data[base_species]['tier']
+                data['tier'] = self.processed_data.get(base_species, {}).get('tier', None)
+
+        # Special handling for Keldeo
+        if "keldeo" in name:
+            data['tier'] = 'OU'
 
         return data
 
     def extract_pokemon_data(self, pokemon: str, data: dict):
-        """
-        Extract and organize Pokémon data into a consistent format.
-        :param pokemon: Name of the Pokémon being processed.
-        :param data: Raw Pokémon data.
-        """
-        self.processed_data[pokemon] = {
-            'type': data.get('types'),
-            'stats': data.get('baseStats'),
-            'height': data.get('heightm'),
-            'weight': data.get('weightkg'),
-            'otherFormes': data.get('otherFormes'),
-            'tier': data.get('tier'),
-            'gender': data.get('gender')
-        }
+        self.processed_data[pokemon] = self.transformer.transform(data)
     
 if __name__ == '__main__':
     processor = PokemonProcessor()

@@ -6,20 +6,22 @@ Where N ∈ [1, 6].
 The players take turns to select a move for their Pokemon to use. The move is then executed and the effects are applied.
 '''
 
-from Code.pokemon import Pokemon
-from Code.move import Move
-from Code.player import Player
+from Code.DataStructures.Pokemon import Pokemon
+from Code.DataStructures.Move import Move
+from Code.DataStructures.Player import Player
 from Code.exceptions import ReturnBackException
+from Code.DataStructures.MoveExecution import MoveExecution
 import random
 
 class Battle:
-    def __init__(self, players: list[Player]):
+    def __init__(self, players: list[Player] = []):
         self._players = players
         self._turn = 0
         self._current_turn_order = []
         self._winner = None
         self._weather = None
         self._terrain = None
+        self._move_execution = MoveExecution()
 
     # Setters and getters
     @property
@@ -45,6 +47,10 @@ class Battle:
     @property
     def terrain(self):
         return self._terrain
+    
+    @property
+    def move_execution(self):
+        return self._move_execution
     
     # Methods
     def turn_order(self, move1: Move, move2: Move): # Currently only for 2 players
@@ -113,16 +119,7 @@ class Battle:
         if move.type == defender.type:
             damage = damage * 1.5
         if self._weather != None:
-            if self._weather == 'Rain':
-                if move.type == 'Water':
-                    damage = damage * 1.5
-                elif move.type == 'Fire':
-                    damage = damage * 0.5
-            elif self._weather == 'Sun':
-                if move.type == 'Fire':
-                    damage = damage * 1.5
-                elif move.type == 'Water':
-                    damage = damage * 0.5
+            damage = self.apply_weather_effects(move, damage)
         
         damage *= random.uniform(0.85, 1.0)
         # Type effectiveness (to be implemented)
@@ -130,6 +127,19 @@ class Battle:
             damage = damage * 0.5
 
         defender.current_hp = -round(damage, 0)
+
+    def apply_weather_effects(self, move, damage):
+        if self._weather == 'Rain':
+            if move.type == 'Water':
+                return damage * 1.5
+            elif move.type == 'Fire':
+                return damage * 0.5
+        elif self._weather == 'Sun':
+            if move.type == 'Fire':
+                return damage * 1.5
+            elif move.type == 'Water':
+                return damage * 0.5
+        return damage
 
     def apply_effects(self, move: Move, attacker: Pokemon, defender: Pokemon):
         # To be implemented
@@ -207,8 +217,8 @@ class Battle:
                     print(f"Player {i+1}'s {attacker.current_pokemon.name} uses {move.name}!")
                 
                 # Calculate and apply damage
-                damage = self.calculate_damage(move, attacker.current_pokemon, defender.current_pokemon)
-                self.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, damage)
+                damage = self.move_execution.calculate_damage(move, attacker.current_pokemon, defender.current_pokemon)
+                defender.current_pokemon.current_hp += self.move_execution.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, damage, self._weather)
 
                 # Apply any additional effects (status, etc.)
                 self.apply_effects(move, attacker.current_pokemon, defender.current_pokemon)
@@ -225,4 +235,23 @@ class Battle:
         else:
             if not testing:
                 print(f"Player {self._players.index(self._winner) + 1} wins!")
+
+
+    def __str__(self):
+        return f"Battle between {self._players[0].name} and {self._players[1].name}"
+    
+    def __repr__(self):
+        return f"Battle({self._players})"
+    
+    def __len__(self):
+        return len(self._players)
+    
+    def __getitem__(self, index):
+        return self._players[index]
+    
+    def __setitem__(self, index, value):
+        self._players[index] = value
+
+    def add_player(self, player: Player):
+        self._players.append(player)
 

@@ -8,13 +8,16 @@ class BaseSaver:
         if not self.check_if_exists(data, save_path):
             with open(save_path, 'a') as file:
                 file.write(repr(data) + '\n')
+        else:
+            raise ValueError('Data already saved')
         return True
     
-    def check_if_exists(self, data, save_path: str):
+    def check_if_exists(self, search_str, save_path: str):
         '''Check if the data is already saved'''
         with open(save_path, 'r') as file:
             for i, line in enumerate(file):
-                if repr(data) in line:
+                line = line.split(',')
+                if search_str in line[0]:
                     return i
         return False
     

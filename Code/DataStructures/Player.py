@@ -7,6 +7,7 @@ The player has attributes such as name, team, and current pokemon and terastizat
 
 from Code.DataStructures.Team import Team
 
+
 class Player:
     def __init__(self, name: str, team: Team, id_: int):
         self._id = id_

@@ -12,9 +12,10 @@ from Code.DataStructures.Player import Player
 from Code.exceptions import ReturnBackException
 from Code.DataStructures.MoveExecution import MoveExecution
 import random
+import time
 
 class Battle:
-    def __init__(self, players: list[Player] = []):
+    def __init__(self, players: list[Player] = [], id: int = 0):
         self._players = players
         self._turn = 0
         self._current_turn_order = []
@@ -22,8 +23,15 @@ class Battle:
         self._weather = None
         self._terrain = None
         self._move_execution = MoveExecution()
+        self._id = id
+        self._time = time.time()
+        self._date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(self._time))
 
     # Setters and getters
+    @property
+    def id(self):
+        return self._id
+    
     @property
     def players(self):
         return self._players
@@ -241,17 +249,5 @@ class Battle:
         return f"Battle between {self._players[0].name} and {self._players[1].name}"
     
     def __repr__(self):
-        return f"Battle({self._players})"
-    
-    def __len__(self):
-        return len(self._players)
-    
-    def __getitem__(self, index):
-        return self._players[index]
-    
-    def __setitem__(self, index, value):
-        self._players[index] = value
-
-    def add_player(self, player: Player):
-        self._players.append(player)
+        return f"{self.id}, {self._players[0].id}, {self._players[1].id}, {self._winner.id}, {self._date}"
 

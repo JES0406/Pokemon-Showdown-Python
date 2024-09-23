@@ -14,6 +14,7 @@ class PlayerSaver(BaseSaver):
                 file.write(repr(player) + ',[0,0]' + '\n')
         else:
             self.update_record(player, save_path, result, index)
+        return True
 
     def get_record(self, save_path: str, index: int) -> str:
         '''Get the record of the player in the csv file'''

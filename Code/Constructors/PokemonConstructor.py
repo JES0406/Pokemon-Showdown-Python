@@ -24,7 +24,7 @@ class PokemonConstructor(BaseConstructor):
             pokemon_data = self._data[name]
             moveset_data = self._moveset_data[name]
 
-            role = get_choice(moveset_data['roles'])
+            role = get_choice(list(moveset_data['roles'].keys()), weights=[role['weight'] for role in moveset_data['roles'].values()])[0]
             role_data = moveset_data['roles'][role]
 
             pokemon = Pokemon(
@@ -32,8 +32,8 @@ class PokemonConstructor(BaseConstructor):
                 types=pokemon_data['type'],
                 stats=self.stats_calculator.calculate_stats(
                     pokemon_data['stats'],
-                    self.set_ivs_evs(self._moveset_data[name]['roles']['roles']['ivs']),
-                    self.set_ivs_evs(self._moveset_data[name]['roles']['roles']['evs']),
+                    self.set_ivs_evs(self._moveset_data[name]['roles'][role]['ivs']),
+                    self.set_ivs_evs(self._moveset_data[name]['roles'][role]['evs']),
                     moveset_data['level']
                 ),
                 height=pokemon_data['height'],
@@ -43,13 +43,14 @@ class PokemonConstructor(BaseConstructor):
                 shyniness=True if random.randint(1, 8192) == 1 else False,
                 gender=pokemon_data.get('gender', random.choice(['M', 'F'])),
                 level=moveset_data['level'],
-                ability=get_choice(role_data['abilities']),
-                item=get_choice(role_data.get('items', [])),
+                ability=get_choice(list(role_data['abilities'].keys()), weights=list(role_data['abilities'].values()))[0],
+                item=get_choice(list(role_data['items'].keys()), weights=list(role_data['items'].values()))[0],
                 moves=self.move_selector.get_moves(role_data, moveset_data),
                 tera_type=role_data.get('tera_type', pokemon_data['type'][0]),
             )
             return pokemon
-            
+        else:
+            raise ValueError(f"Pokemon {name} not found in the database")
     def set_ivs_evs(self, data: dict):
         return {
             'hp': data.get('hp', 0),

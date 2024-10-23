@@ -1,7 +1,7 @@
 '''
 Module for processing raw moveset data
 '''
-
+from Code.Utils import normalize_name
 from Code.DataProcessing.BaseProcessor import BaseProcessor
 
 class MovesetProcessor(BaseProcessor):
@@ -42,41 +42,72 @@ class MovesetProcessor(BaseProcessor):
     def process_data(self, data):
         for i in data.keys():
             for pokemon in data[i].keys():
-                self.process_pokemon(pokemon, data[i][pokemon])
+                self.process_pokemon(pokemon.lower(), data[i][pokemon])
 
     def process_pokemon(self, pokemon: str, data: dict):
         if pokemon not in self.pokemon_names:
             self.pokemon_names.append(pokemon)
             data = self.normalize_data(data)
-            self.data[pokemon] = data
+            self.data[pokemon.lower()] = data
 
     def normalize_data(self, data: dict):
+        data = self.normalize_roles(data)
+        data = self.normalize_stats(data)
+        print(data['roles'][list(data['roles'].keys())[0]]['moves'])
+        return data
+    
+    def normalize_roles(self, data: dict):
         if 'roles' not in data.keys():
             data['roles'] = {
                 'standard': {
                     'weight': 1,
-                    'moves': data['moves'],
+                    'moves': {normalize_name(move): data['moves'][move] for move in data['moves']},
                     'items': data['items'] if 'items' in data.keys() else None,
                 }
             }
-            data.pop('moves')
 
+            data.pop('moves')
+            if 'items' in data.keys():
+                data.pop('items')
+        return data
+    
+    def normalize_stats(self, data: dict):
+        for role in data['roles'].keys():
+            if 'ivs' not in data['roles'][role].keys():
+                data['roles'][role]['ivs'] = {
+                    'hp': 31,
+                    'atk': 31,
+                    'def': 31,
+                    'spa': 31,
+                    'spd': 31,
+                    'spe': 31
+                }
+            if 'evs' not in data['roles'][role].keys():
+                data['roles'][role]['evs'] = {
+                    'hp': 0,
+                    'atk': 0,
+                    'def': 0,
+                    'spa': 0,
+                    'spd': 0,
+                    'spe': 0
+                }
         return data
 
 if __name__ == '__main__':
     paths = [
-            'Raw_Datasets/Movesets/gen9randombattle.json',
-            'Raw_Datasets/Movesets/gen8randombattle.json',
-            'Raw_Datasets/Movesets/gen8bdsprandombattle.json',
-            'Raw_Datasets/Movesets/gen7randombattle.json',
-            'Raw_Datasets/Movesets/gen7letsgorandombattle.json',
-            'Raw_Datasets/Movesets/gen6randombattle.json',
-            'Raw_Datasets/Movesets/gen5randombattle.json',
-            'Raw_Datasets/Movesets/gen4randombattle.json',
-            'Raw_Datasets/Movesets/gen3randombattle.json',
-            'Raw_Datasets/Movesets/gen2randombattle.json',
-            'Raw_Datasets/Movesets/gen1randombattle.json'
+            'RawDatasets/Movesets/gen9randombattle.json',
+            'RawDatasets/Movesets/gen8randombattle.json',
+            'RawDatasets/Movesets/gen8bdsprandombattle.json',
+            'RawDatasets/Movesets/gen7randombattle.json',
+            'RawDatasets/Movesets/gen7letsgorandombattle.json',
+            'RawDatasets/Movesets/gen6randombattle.json',
+            'RawDatasets/Movesets/gen5randombattle.json',
+            'RawDatasets/Movesets/gen4randombattle.json',
+            'RawDatasets/Movesets/gen3randombattle.json',
+            'RawDatasets/Movesets/gen2randombattle.json',
+            'RawDatasets/Movesets/gen1randombattle.json'
         ]
+
     processor = MovesetProcessor()
     processor.process(paths)
         

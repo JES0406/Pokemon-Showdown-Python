@@ -7,7 +7,7 @@ class PokemonMoveSelector:
 
     def get_moves(self, role_data, moveset_data):
         if len(role_data['moves']) > 4:
-            moves = get_choice(role_data['moves'], 4)
+            moves = get_choice(list(role_data['moves'].keys()), weights=list(role_data['moves'].values()), n=4)
         else:
             moves = role_data['moves']
         return [self.move_builder.create(move) for move in moves]

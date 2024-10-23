@@ -19,7 +19,8 @@ class BaseConstructor:
         :param path: Path to the file containing the data.
         :return: Dictionary containing the data.
         """
-        return json.load(open(path, 'r'))
+        with open(path, 'r') as file:
+            return json.load(file)
     
     def create(self, data: dict):
         """

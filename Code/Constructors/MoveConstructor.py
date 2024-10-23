@@ -19,6 +19,7 @@ class MoveConstructor(BaseConstructor):
             self.move = Move(**move_data)
         else:
             raise ValueError(f"Move {name} not found")
+        return self.move
         
     def get_structure(self):
         return self.move

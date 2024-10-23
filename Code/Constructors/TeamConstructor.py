@@ -1,7 +1,7 @@
 
 
-from Code.DataStructures import Team
-from Code.Constructors import PokemonConstructor
+from Code.DataStructures.Team import Team
+from Code.Constructors.PokemonConstructor import PokemonConstructor
 from Code.Utils import get_choice
 from Code.Constructors.BaseConstructor import BaseConstructor
 
@@ -12,7 +12,7 @@ class TeamConstructor(BaseConstructor):
 
     def create(self, team_data: dict):
         team = Team()
-        for pokemon_name in team_data.keys():
+        for pokemon_name in team_data:
             pokemon = self.pokemon_constructor.create(pokemon_name)
             if pokemon:
                 team.add_pokemon(pokemon)

@@ -53,7 +53,6 @@ class MovesetProcessor(BaseProcessor):
     def normalize_data(self, data: dict):
         data = self.normalize_roles(data)
         data = self.normalize_stats(data)
-        print(data['roles'][list(data['roles'].keys())[0]]['moves'])
         return data
     
     def normalize_roles(self, data: dict):
@@ -69,6 +68,9 @@ class MovesetProcessor(BaseProcessor):
             data.pop('moves')
             if 'items' in data.keys():
                 data.pop('items')
+        else:
+            for role in data['roles'].keys():
+                data['roles'][role]['moves'] = {normalize_name(move): data['roles'][role]['moves'][move] for move in data['roles'][role]['moves']}
         return data
     
     def normalize_stats(self, data: dict):

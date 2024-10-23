@@ -19,7 +19,9 @@ class MoveTransformer:
             "basePower": move_info.get("basePower", None),
             "accuracy": move_info.get("accuracy", None),
             "priority": move_info.get("priority", None),
-            "flags": {}
+            "flags": {},
+            'desc': move_info.get('desc', None),
+            'shortDesc': move_info.get('shortDesc', None),
         }
 
         # Apply the transformation helper methods

@@ -14,7 +14,7 @@ class TestPokemon(unittest.TestCase):
     def setUp(self):
         # Create a test instance of Pokemon
         self.constructor = PokemonConstructor()
-        self.Pokemon = self.constructor.create("abomasnow")
+        self.Pokemon = self.constructor.create("pikachu")
         # self.Pokemon = Pokemon(
         #     name="Pikachu", 
         #     level=25, 
@@ -29,8 +29,8 @@ class TestPokemon(unittest.TestCase):
     
     def test_initialization(self):
         # Test whether the Pokemon is initialized correctly
-        self.assertEqual(self.Pokemon.name, "Pikachu")
-        self.assertEqual(self.Pokemon.level, 25)
+        self.assertEqual(self.Pokemon.name, "pikachu")
+        self.assertEqual(self.Pokemon.level, 93)
         self.assertEqual(self.Pokemon.current_hp, 100)
         self.assertIsNone(self.Pokemon.status)
         self.assertFalse(self.Pokemon.mega_evolved)
@@ -109,8 +109,7 @@ class TestPokemon(unittest.TestCase):
     
     def test_string_representation(self):
         # Test the __str__ method for a basic string representation
-        expected_str = "Pikachu - Level 25 - 100% HP"
-        print(self.Pokemon)
+        expected_str = "pikachu - Level 93 - 100% HP"
         self.assertTrue(expected_str in str(self.Pokemon))
 
 if __name__ == '__main__':

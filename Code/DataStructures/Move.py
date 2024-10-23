@@ -8,7 +8,7 @@ class Move:
     def __init__(self, 
                  num: int = None, 
                  name: str = None, 
-                 type_: str = None, 
+                 type: str = None, 
                  category: str = None, 
                  pp: int = None, 
                  basePower: int = None, 
@@ -26,7 +26,9 @@ class Move:
                  forceSwitch: bool = None, 
                  selfBoost: dict = None, 
                  weather: str = None, 
-                 additionalEffects: dict = None):
+                 additionalEffects: dict = None, 
+                 desc: str = None,
+                 shortDesc: str = None):
         """
         Initialize the Move class with attributes from the moves JSON.
         All attributes are private, and access is controlled through @property decorators.
@@ -34,7 +36,7 @@ class Move:
         self._num = num
         self._name = name
 
-        self._type = type_
+        self._type = type
         self._category = category
         self._base_pp = pp
         self._pp = pp
@@ -56,6 +58,9 @@ class Move:
         self._selfBoost = selfBoost
         self._weather = weather
         self._additionalEffects = additionalEffects if additionalEffects is not None else {}
+
+        self._desc = desc
+        self._shortDesc = shortDesc
 
     # Setters and getters
     @property
@@ -174,6 +179,14 @@ class Move:
     @property
     def additionalEffects(self):
         return self._additionalEffects
+    
+    @property
+    def desc(self):
+        return self._desc
+    
+    @property
+    def shortDesc(self):
+        return self._shortDesc
     
     # Methods
     def use(self):

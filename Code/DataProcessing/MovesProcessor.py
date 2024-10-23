@@ -16,7 +16,7 @@ class MovesProcessor(BaseProcessor):
         super().__init__(data)
         self.transformer = MoveTransformer()
 
-    def process(self, movesets_path: str = 'Datasets/Movesets.json', moves_path: str = 'Datasets/Moves.json', save_path: str = 'Datasets/Moves.json'):
+    def process(self, movesets_path: str = 'Datasets/Movesets.json', moves_path: str = 'RawDatasets/Moves/Moves.json', save_path: str = 'Datasets/Moves.json'):
         """
         Load data, process it based on the needed moves, and save the processed data.
         :param movesets_path: Path to the file containing the needed moves list.
@@ -29,6 +29,8 @@ class MovesProcessor(BaseProcessor):
         
         moves_needed = self.get_needed(movesets_path)
         self.move_data = self.get_data(moves_needed)
+        self.move_data = self.correct_data(self.move_data)
+        self.data = self.move_data
         self.save_data(save_path)
 
     def get_needed(self, movesets_path: str) -> list:
@@ -75,6 +77,19 @@ class MovesProcessor(BaseProcessor):
         move_data = {normalize_name(move): self.transformer.transform(self.data[normalize_name(move)]) for move in moves_needed if normalize_name(move) in self.data.keys()}
         return move_data
 
+    def correct_data(self, data: dict):
+        """
+        Correct the data by removing unneeded fields.
+        """
+        for move in data.keys():
+            data[move] = self.remove_unneeded(data[move])
+        return data
+
+    def remove_unneeded(self, data: dict):
+        """
+        Remove unneeded moves from the data.
+        """
+        return data
 if __name__ == '__main__':
     processor = MovesProcessor()
     processor.process()

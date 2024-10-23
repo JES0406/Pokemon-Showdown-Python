@@ -1,9 +1,9 @@
 import unittest
-from Code.DataStructures.Move import Move  # Adjust the import based on your module setup
+from Code.Constructors.MoveConstructor import MoveConstructor
 
 class TestMove(unittest.TestCase):
     def setUp(self):
-        self.move = Move(name="Thunderbolt", type_="Electric", category="Special", power=90, accuracy=100, pp=15, priority=0, target="Single", effect="Paralyzes opponent")
+        self.move = MoveConstructor().create("thunderbolt")
 
     def test_initial_values(self):
         self.assertEqual(self.move.name, "Thunderbolt")
@@ -13,8 +13,13 @@ class TestMove(unittest.TestCase):
         self.assertEqual(self.move.accuracy, 100)
         self.assertEqual(self.move.pp, 15)
         self.assertEqual(self.move.priority, 0)
-        self.assertEqual(self.move.target, "Single")
-        self.assertEqual(self.move.effect, "Paralyzes opponent")
+        self.assertEqual(self.move.target, "normal")
+        self.assertEqual(self.move.flags, {
+            "protect": 1,
+            "mirror": 1,
+            "metronome": 1
+        })
+        self.assertEqual(self.move.desc, "Has a 10% chance to paralyze the target.")
 
     def test_accuracy_setter(self):
         self.move.accuracy = 120

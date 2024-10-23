@@ -10,6 +10,7 @@ from Code.Constructors.BaseConstructor import BaseConstructor
 from Code.Constructors.PokemonStatsCalculator import PokemonStatsCalculator
 from Code.Constructors.PokemonMoveSelector import PokemonMoveSelector
 from Code.Utils import get_choice
+from copy import deepcopy
 
 class PokemonConstructor(BaseConstructor):
     def __init__(self):

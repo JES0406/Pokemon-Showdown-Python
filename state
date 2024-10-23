@@ -1,0 +1,15 @@
+
+Right now we have a problem with the player creation.
+The player is created with the team from the previous trainer.
+We need to fix this.
+
+Tests done:
+- Pokemon
+- Moves
+
+Tests to do:
+- Player
+- Trainer
+- Team
+- Battle
+- Saving data

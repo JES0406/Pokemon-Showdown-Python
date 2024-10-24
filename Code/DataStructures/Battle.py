@@ -124,7 +124,7 @@ class Battle:
     
     def apply_damage(self, move: Move, attacker: Pokemon, defender: Pokemon, damage: float): # Add glaive rush mechanic
         damage = damage*100/defender.stats['hp']
-        if move.type == defender.type:
+        if move.type == defender.types[0] or move.type == defender.types[1]:
             damage = damage * 1.5
         if self._weather != None:
             damage = self.apply_weather_effects(move, damage)
@@ -197,6 +197,7 @@ class Battle:
             except ReturnBackException as e:
                 print(e)
                 order = 3
+            order = int(order)
 
     def run(self, testing=False):
         while self.winner is None:
@@ -226,7 +227,9 @@ class Battle:
                 
                 # Calculate and apply damage
                 damage = self.move_execution.calculate_damage(move, attacker.current_pokemon, defender.current_pokemon)
-                defender.current_pokemon.current_hp += self.move_execution.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, damage, self._weather)
+                damage = self.move_execution.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, damage, self._weather)
+                if not testing:
+                    print(f"It deals {damage} damage!")
 
                 # Apply any additional effects (status, etc.)
                 self.apply_effects(move, attacker.current_pokemon, defender.current_pokemon)

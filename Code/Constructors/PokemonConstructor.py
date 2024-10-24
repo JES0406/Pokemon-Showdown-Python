@@ -9,7 +9,7 @@ from Code.DataStructures.Pokemon import Pokemon
 from Code.Constructors.BaseConstructor import BaseConstructor
 from Code.Constructors.PokemonStatsCalculator import PokemonStatsCalculator
 from Code.Constructors.PokemonMoveSelector import PokemonMoveSelector
-from Code.Utils import get_choice
+from Code.Utils import get_choice, normalize_name
 from copy import deepcopy
 
 class PokemonConstructor(BaseConstructor):
@@ -21,6 +21,7 @@ class PokemonConstructor(BaseConstructor):
         self.move_selector = PokemonMoveSelector()
 
     def create(self, name: str):
+        name = normalize_name(name)
         if name in self._data.keys() and name in self._moveset_data.keys():
             pokemon_data = self._data[name]
             moveset_data = self._moveset_data[name]

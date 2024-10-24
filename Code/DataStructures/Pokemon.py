@@ -66,7 +66,7 @@ class Pokemon:
         self._moves = moves if moves is not None else {}
         self._tera_type = tera_type
 
-        self._current_hp = 100
+        self._current_hp = self._stats['hp']
         self._status = None
         self._volatile_status = None
         self._mega_evolved = False
@@ -177,8 +177,8 @@ class Pokemon:
     @current_hp.setter
     def current_hp(self, value):
         self._current_hp = value
-        if self._current_hp > 100:
-            self._current_hp = 100
+        if self._current_hp > self._stats['hp']:
+            self._current_hp = self._stats['hp']
         elif self._current_hp <= 0:
             self._current_hp = 0
             self._status = 'FNT'
@@ -254,7 +254,7 @@ class Pokemon:
 
     # Methods
     def __str__(self):
-        to_print = f'{self._name} - Level {self._level} - {self._current_hp}% HP'
+        to_print = f'{self._name} - Level {self._level} - {self._current_hp} HP'
         if self._status is not None:
             to_print += f' ({self._status})'
         to_print += '\n'

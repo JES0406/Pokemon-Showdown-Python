@@ -20,7 +20,13 @@ class MoveExecution:
             return 0  # Return 0 if there's an error
 
         # Calculate critical hit chance
-        crit = random.randint(1, 24) == 1  # Critical hit on a roll of 1
+        ratio = move.critRatio
+        bound = max(1, 24//(3^(ratio-1))) # Critical hit ratio, we use the floor division to get the number of times we need to divide 24 by 3 to get the ratio
+        roll = random.randint(1, bound)
+        crit = roll == 1  # Critical hit on a roll of 1
+
+        if crit:
+            print('Critical hit!')
 
         # Calculate attack and defense based on move category
         if move.category == 'Physical':
@@ -39,15 +45,18 @@ class MoveExecution:
             damage = self.apply_weather_effects(move, damage, weather)
         return damage
     
-    def apply_damage(self, move: Move, attacker: Pokemon, defender: Pokemon, damage: float) -> int:
-        if move.type == attacker.type:
+    def apply_damage(self, move: Move, attacker: Pokemon, defender: Pokemon, damage: float, weather: str) -> int:
+        if move.type in attacker.types:
             damage = damage * 1.5
         
         damage *= random.uniform(0.85, 1.0)
         # Type effectiveness (to be implemented)
         damage = self.burned_damage(attacker, move, damage)
 
-        return -round(damage, 0)
+        damage = self.apply_weather_effects(move, damage, weather)
+
+        defender.current_hp -= round(damage, 0)
+        return round(damage, 0)
 
     def apply_weather_effects(self, move, damage, weather):
         if weather == 'Rain':

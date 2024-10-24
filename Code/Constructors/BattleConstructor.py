@@ -8,8 +8,10 @@ class BattleConstructor(BaseConstructor):
         self.player_constructor = PlayerConstructor()
         
     def create(self, battle_data: dict):
-        battle = Battle()
+        players = []
         for player_data in battle_data['players']:
             player = self.player_constructor.create(player_data)
-            battle.add_player(player)
+            players.append(player)
+        battle = Battle(players)
+
         return battle

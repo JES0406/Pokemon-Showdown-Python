@@ -9,7 +9,7 @@ The players take turns to select a move for their Pokemon to use. The move is th
 from Code.DataStructures.Pokemon import Pokemon
 from Code.DataStructures.Move import Move
 from Code.DataStructures.Player import Player
-from Code.exceptions import ReturnBackException
+from Code.exceptions import ReturnBackException, NoPPException
 from Code.DataStructures.MoveExecution import MoveExecution
 import random
 import time
@@ -86,72 +86,6 @@ class Battle:
             finished = False
 
         return finished
-            
-    
-    def calculate_damage(self, move: Move, attacker: Pokemon, defender: Pokemon):
-        base_power = 0
-
-        # Handle Status moves
-        if move.category == 'Status':
-            move.use()  # Apply the effects of the Status move
-            return 0  # Status moves typically don't deal damage
-
-        # Get the base power from the move
-        try:
-            base_power = move.use()  # Ensure move.use() is properly called for the base power
-        except ValueError as e:
-            print(e)
-            return 0  # Return 0 if there's an error
-
-        # Calculate critical hit chance
-        crit = random.randint(1, 24) == 1  # Critical hit on a roll of 1
-
-        # Calculate attack and defense based on move category
-        if move.category == 'Physical':
-            attack = attacker.stats['atk'] * attacker.get_boost('atk')
-            defense = defender.stats['def'] if crit else defender.stats['def'] * defender.get_boost('def')
-        elif move.category == 'Special':
-            attack = attacker.stats['spa'] * attacker.get_boost('spa')
-            defense = defender.stats['spd'] if crit else defender.stats['spd'] * defender.get_boost('spd')
-        else:
-            return 0  # If the move category is invalid, return 0
-
-        # Calculate damage
-        damage = (((2 * attacker.level / 5 + 2) * base_power * attack / defense) / 50 + 2)
-
-        return damage
-
-    
-    def apply_damage(self, move: Move, attacker: Pokemon, defender: Pokemon, damage: float): # Add glaive rush mechanic
-        damage = damage*100/defender.stats['hp']
-        if move.type == defender.types[0] or move.type == defender.types[1]:
-            damage = damage * 1.5
-        if self._weather != None:
-            damage = self.apply_weather_effects(move, damage)
-        
-        damage *= random.uniform(0.85, 1.0)
-        # Type effectiveness (to be implemented)
-        if move.category == 'Physical' and attacker.status == 'BRN':
-            damage = damage * 0.5
-
-        defender.current_hp = -round(damage, 0)
-
-    def apply_weather_effects(self, move, damage):
-        if self._weather == 'Rain':
-            if move.type == 'Water':
-                return damage * 1.5
-            elif move.type == 'Fire':
-                return damage * 0.5
-        elif self._weather == 'Sun':
-            if move.type == 'Fire':
-                return damage * 1.5
-            elif move.type == 'Water':
-                return damage * 0.5
-        return damage
-
-    def apply_effects(self, move: Move, attacker: Pokemon, defender: Pokemon):
-        # To be implemented
-        pass
 
     def get_info(self, player: Player):
         # Get information about the current player's Pokemon
@@ -161,22 +95,24 @@ class Battle:
 
     def move_logic(self, player: Player):
         while 1:
-            move_index = int(input(f"Player {player.name}, choose a move (0-{len(player.current_pokemon.moves)-1}), or -1 to cancel: "))
+            move_index = int(input(f"Player {player.name}, choose a move (1-{len(player.current_pokemon.moves)}), or -1 to cancel: "))
             try:
                 if move_index == -1:
                     raise ReturnBackException("Move cancelled")
-                player.move = move_index  # Set the move using the player's setter
+                player.move = move_index - 1  # Set the move using the player's setter. The index is 1-based for the user so we need to subtract 1
+                if player.move.pp == 0:
+                    raise ReturnBackException("No PP left for this move!")
                 return player.move
             except ValueError as e:
                 print(e)
 
     def switch_logic(self, player: Player):
         while 1:
-            pokemon_index = int(input(f"Player {player.name}, choose a Pokemon to switch to (0-{len(player.team)-1}), or -1 to cancel: "))
+            pokemon_index = int(input(f"Player {player.name}, choose a Pokemon to switch to (1-{len(player.team)}), or -1 to cancel: "))
             try:
                 if pokemon_index == -1:
                     raise ReturnBackException("Switch cancelled")
-                player.switch_pokemon(pokemon_index)  # Switch to the chosen Pokemon
+                player.switch_pokemon(pokemon_index - 1)  # Switch to the chosen Pokemon. The index is 1-based for the user so we need to subtract 1
             except ValueError as e:
                 print(e)
 
@@ -226,8 +162,7 @@ class Battle:
                     print(f"Player {i+1}'s {attacker.current_pokemon.name} uses {move.name}!")
                 
                 # Calculate and apply damage
-                damage = self.move_execution.calculate_damage(move, attacker.current_pokemon, defender.current_pokemon)
-                damage = self.move_execution.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, damage, self._weather)
+                damage = self.move_execution.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, self._weather)
                 if not testing:
                     print(f"It deals {damage} damage!")
 

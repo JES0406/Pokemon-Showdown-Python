@@ -4,6 +4,8 @@ Module containing the class Move.
 A move has a name, type, category, power, accuracy, pp, priority, target, effect and other relevant information.
 '''
 
+from Code.exceptions import NoPPException
+
 class Move:
     def __init__(self, 
                  num: int = None, 
@@ -188,10 +190,18 @@ class Move:
     def shortDesc(self):
         return self._shortDesc
     
+    @property
+    def contact(self):
+        return self._flags.get('contact', False)
+    
+    @contact.setter
+    def contact(self, contact):
+        self._flags['contact'] = contact
+    
     # Methods
     def use(self):
         if self._pp == 0:
-            raise ValueError(f'{self._name} has no PP left!')
+            raise NoPPException(f'{self._name} has no PP left!')
         else:
             self._pp -= 1
         return self._power

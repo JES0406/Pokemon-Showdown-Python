@@ -1,16 +1,18 @@
+We need to streamline the damage calculation process. It's currently a mess.
+We create a MoveExecution class that will handle all the damage calculations.
 
-Battle is not working well.
-The attack logic is not working well. The damage is not being applied.
+Also, when selecting the moves that a pokemon has, there are repeated moves. We need to fix that.
 
 
 Tests done:
 - Pokemon
 - Moves
 - Player
+- Battle
+
 
 
 
 Tests to do:
-- Battle
 
 - Saving data

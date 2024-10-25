@@ -74,6 +74,8 @@ class Pokemon:
         self._dynamaxed = False
         self._terastilized = False
 
+        self.grounded = False
+
 
 
     # Setters and getters
@@ -251,6 +253,14 @@ class Pokemon:
             raise ValueError(f'{self._name} is already Dynamaxed!')
         else:
             self._terastilized = value
+
+    @property
+    def grounded(self):
+        return self._grounded
+    
+    @grounded.setter
+    def grounded(self, value):
+        self._grounded = value
 
     # Methods
     def __str__(self):

@@ -22,6 +22,7 @@ class MoveTransformer:
             "flags": {},
             'desc': move_info.get('desc', None),
             'shortDesc': move_info.get('shortDesc', None),
+            'overrideDefensiveStat': move_info.get('overrideDefensiveStat', None),
         }
 
         # Apply the transformation helper methods
@@ -43,6 +44,22 @@ class MoveTransformer:
         for flag in ['protect', 'mirror', 'contact', 'bullet', 'sound', 'heal', 'recharge', 'distance', 'snatch', 'metronome']:
             if flag in move_info.get("flags", {}):
                 transformed_move["flags"][flag] = move_info["flags"].get(flag, False)
+        flags_map = {
+            "Shell Side Arm": "ShellSideArm",
+            "Psyshock": "Psyshock", "Psystrike": "Psyshock", "Secret Sword": "Psyshock",
+            "Photon Geyser": "PhotonGeyser",
+            "Tera Blast": "TeraBlast",
+            "Tera Storm": "TeraStorm",
+            "Super Fang": "SuperFang",
+            "Freeze-Dry": "FreezeDry"
+        }
+
+        move_name = move_info.get("name")
+        if move_name in flags_map:
+            transformed_move["flags"][flags_map[move_name]] = True
+
+        transformed_move["flags"]["ignoreImmunity"] = move_info.get("ignoreImmunity", False)
+
         return transformed_move
 
     def handle_additional_effects(self, transformed_move: dict, move_info: dict) -> dict:

@@ -10,9 +10,8 @@ The project will include features like a random team creator, a battle simulator
 - Eventually expand to multiplayer battles using Python networking libraries.
 
 ## Features
-- [ ] Plain text simulator.
-- [ ] Random team generator.
-- [ ] Graphical user interface.
+- [x] Plain text simulator.
+- [x] Random team generator.
 - [ ] Local multiplayer.
 - [ ] Online multiplayer.
 - [ ] Ranking system.

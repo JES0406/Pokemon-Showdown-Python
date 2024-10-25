@@ -10,9 +10,8 @@ Tests done:
 - Player
 - Battle
 
-
-
-
 Tests to do:
-
 - Saving data
+
+Next steps:
+Start the sockets logic

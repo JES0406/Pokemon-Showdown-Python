@@ -10,15 +10,19 @@ from Code.Constructors.BaseConstructor import BaseConstructor
 from Code.Constructors.PokemonStatsCalculator import PokemonStatsCalculator
 from Code.Constructors.PokemonMoveSelector import PokemonMoveSelector
 from Code.Utils import get_choice, normalize_name
-from copy import deepcopy
 
 class PokemonConstructor(BaseConstructor):
     def __init__(self):
         super().__init__()
         self._data = self.load_data('Datasets/Pokemon.json')
         self._moveset_data = self.load_data('Datasets/Movesets.json')
+        self._pokemons = list(self._moveset_data.keys())
         self.stats_calculator = PokemonStatsCalculator()
         self.move_selector = PokemonMoveSelector()
+
+    @property
+    def pokemons(self):
+        return self._pokemons
 
     def create(self, name: str):
         name = normalize_name(name)

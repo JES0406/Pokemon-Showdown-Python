@@ -22,7 +22,10 @@ class MoveExecution:
             return 0  # Return 0 if there's an error
 
         # Calculate critical hit chance
-        crit = self.crit_logic(move.critRatio)
+        ratio = move.critRatio
+        if ratio is None:
+            ratio = 1
+        crit = self.crit_logic(ratio)
 
         # Calculate attack and defense based on move category
         if move.flags.get('ShellSideArm') == True:

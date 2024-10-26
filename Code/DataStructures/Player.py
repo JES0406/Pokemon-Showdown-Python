@@ -114,6 +114,7 @@ class Player:
             raise ValueError('Pokemon is already on the field')
         self._current_pokemon = pokemon_index
         self.switch = True
+        print(f"Switched to {self.team.pokemon[pokemon_index]}")
 
     def __repr__(self) -> str:
         return f'{self.id}, {self.name}'

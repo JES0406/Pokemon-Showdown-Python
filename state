@@ -1,7 +1,7 @@
 We need to streamline the damage calculation process. It's currently a mess.
 We create a MoveExecution class that will handle all the damage calculations.
 
-Also, when selecting the moves that a pokemon has, there are repeated moves. We need to fix that.
+When a pokemon is defeated, you have to switch.
 
 
 Tests done:

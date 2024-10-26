@@ -22,7 +22,6 @@ class MoveTransformer:
             "flags": {},
             'desc': move_info.get('desc', None),
             'shortDesc': move_info.get('shortDesc', None),
-            'overrideDefensiveStat': move_info.get('overrideDefensiveStat', None),
         }
 
         # Apply the transformation helper methods
@@ -59,6 +58,8 @@ class MoveTransformer:
             transformed_move["flags"][flags_map[move_name]] = True
 
         transformed_move["flags"]["ignoreImmunity"] = move_info.get("ignoreImmunity", False)
+        transformed_move["flags"]["overrideDefensiveStat"] = move_info.get("overrideDefensiveStat", False)
+
 
         return transformed_move
 

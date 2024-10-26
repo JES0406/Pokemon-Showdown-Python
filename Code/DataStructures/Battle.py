@@ -6,10 +6,9 @@ Where N ∈ [1, 6].
 The players take turns to select a move for their Pokemon to use. The move is then executed and the effects are applied.
 '''
 
-from Code.DataStructures.Pokemon import Pokemon
 from Code.DataStructures.Move import Move
 from Code.DataStructures.Player import Player
-from Code.exceptions import ReturnBackException, NoPPException
+from Code.exceptions import ReturnBackException
 from Code.DataStructures.MoveExecution import MoveExecution
 import random
 import time
@@ -108,11 +107,13 @@ class Battle:
 
     def switch_logic(self, player: Player):
         while 1:
+            print(f"Pokemons: {[str(p) for p in player.team.pokemon]}")
             pokemon_index = int(input(f"Player {player.name}, choose a Pokemon to switch to (1-{len(player.team)}), or -1 to cancel: "))
             try:
                 if pokemon_index == -1:
                     raise ReturnBackException("Switch cancelled")
                 player.switch_pokemon(pokemon_index - 1)  # Switch to the chosen Pokemon. The index is 1-based for the user so we need to subtract 1
+                break
             except ValueError as e:
                 print(e)
 
@@ -157,30 +158,38 @@ class Battle:
                 attacker = self._players[i]
                 defender = self._players[1 - i]
 
-                move = attacker.move  # The chosen move for the current player
-                if not testing:
-                    print(f"Player {i+1}'s {attacker.current_pokemon.name} uses {move.name}!")
-                
-                # Calculate and apply damage
-                damage = self.move_execution.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, self._weather)
-                if not testing:
-                    print(f"It deals {damage} damage!")
+                if attacker.current_pokemon.status != 'FNT':
+                    move = attacker.move  # The chosen move for the current player
+                    if not testing:
+                        print(f"Player {i+1}'s {attacker.current_pokemon.name} uses {move.name}!")
+                    
+                    # Calculate and apply damage
+                    damage = self.move_execution.apply_damage(move, attacker.current_pokemon, defender.current_pokemon, self._weather)
+                    if not testing:
+                        print(f"It deals {damage} damage!")
 
-                # Apply any additional effects (status, etc.)
-                self.apply_effects(move, attacker.current_pokemon, defender.current_pokemon)
+                    # Apply any additional effects (status, etc.)
+                    # self.apply_effects(move, attacker.current_pokemon, defender.current_pokemon)
 
-                if not testing:
-                    print(f"Player {1-i+1}'s {defender.current_pokemon.name} has {defender.current_pokemon.current_hp} HP remaining!")
+                    if not testing:
+                        print(f"Player {1-i+1}'s {defender.current_pokemon.name} has {defender.current_pokemon.current_hp} HP remaining!")
 
                 # Check if the battle is finished
-                if self.is_finished():
-                    self._winner = attacker
-                    break
-            self._turn += 1
-
-        else:
-            if not testing:
-                print(f"Player {self._players.index(self._winner) + 1} wins!")
+            if self.is_finished():
+                self._winner = attacker
+                if not testing:
+                    print(f"Player {self._players.index(self._winner) + 1} wins!")
+                break
+            # Switch the fainted pokemons
+            for p in self.players:
+                if p.current_pokemon.status == 'FNT':
+                    while True:
+                        try:
+                            self.switch_logic(p)
+                            break
+                        except ReturnBackException:
+                            print("You have to switch, your pokemon is fainted")
+            self._turn += 1           
 
 
     def __str__(self):

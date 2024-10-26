@@ -931,7 +931,7 @@
             }
         }
     },
-    "arcanine-hisui": {
+    "arcaninehisui": {
         "level": 82,
         "abilities": {
             "Rock Head": 1
@@ -1064,7 +1064,7 @@
             }
         }
     },
-    "arceus-bug": {
+    "arceusbug": {
         "level": 73,
         "abilities": {
             "Multitype": 1
@@ -1132,7 +1132,7 @@
             "atk": 0
         }
     },
-    "arceus-dark": {
+    "arceusdark": {
         "level": 71,
         "abilities": {
             "Multitype": 1
@@ -1175,7 +1175,7 @@
             "atk": 0
         }
     },
-    "arceus-dragon": {
+    "arceusdragon": {
         "level": 71,
         "abilities": {
             "Multitype": 1
@@ -1281,7 +1281,7 @@
             }
         }
     },
-    "arceus-electric": {
+    "arceuselectric": {
         "level": 70,
         "abilities": {
             "Multitype": 1
@@ -1323,7 +1323,7 @@
             "atk": 0
         }
     },
-    "arceus-fairy": {
+    "arceusfairy": {
         "level": 69,
         "abilities": {
             "Multitype": 1
@@ -1365,7 +1365,7 @@
             "atk": 0
         }
     },
-    "arceus-fighting": {
+    "arceusfighting": {
         "level": 70,
         "abilities": {
             "Multitype": 1
@@ -1430,7 +1430,7 @@
             "atk": 0
         }
     },
-    "arceus-fire": {
+    "arceusfire": {
         "level": 72,
         "abilities": {
             "Multitype": 1
@@ -1532,7 +1532,7 @@
             "hp": 81
         }
     },
-    "arceus-flying": {
+    "arceusflying": {
         "level": 69,
         "abilities": {
             "Multitype": 1
@@ -1576,7 +1576,7 @@
             "atk": 0
         }
     },
-    "arceus-ghost": {
+    "arceusghost": {
         "level": 69,
         "abilities": {
             "Multitype": 1
@@ -1644,7 +1644,7 @@
             "atk": 0
         }
     },
-    "arceus-grass": {
+    "arceusgrass": {
         "level": 72,
         "abilities": {
             "Multitype": 1
@@ -1709,7 +1709,7 @@
             "atk": 0
         }
     },
-    "arceus-ground": {
+    "arceusground": {
         "level": 70,
         "abilities": {
             "Multitype": 1
@@ -1815,7 +1815,7 @@
             }
         }
     },
-    "arceus-ice": {
+    "arceusice": {
         "level": 72,
         "abilities": {
             "Multitype": 1
@@ -1860,7 +1860,7 @@
             "atk": 0
         }
     },
-    "arceus-poison": {
+    "arceuspoison": {
         "level": 70,
         "abilities": {
             "Multitype": 1
@@ -1943,7 +1943,7 @@
             }
         }
     },
-    "arceus-psychic": {
+    "arceuspsychic": {
         "level": 69,
         "abilities": {
             "Multitype": 1
@@ -1984,7 +1984,7 @@
             "atk": 0
         }
     },
-    "arceus-rock": {
+    "arceusrock": {
         "level": 73,
         "abilities": {
             "Multitype": 1
@@ -2056,7 +2056,7 @@
             }
         }
     },
-    "arceus-steel": {
+    "arceussteel": {
         "level": 70,
         "abilities": {
             "Multitype": 1
@@ -2125,7 +2125,7 @@
             }
         }
     },
-    "arceus-water": {
+    "arceuswater": {
         "level": 71,
         "abilities": {
             "Multitype": 1
@@ -2425,7 +2425,7 @@
             }
         }
     },
-    "articuno-galar": {
+    "articunogalar": {
         "level": 84,
         "abilities": {
             "Competitive": 1
@@ -2512,7 +2512,7 @@
             }
         }
     },
-    "avalugg-hisui": {
+    "avalugghisui": {
         "level": 90,
         "abilities": {
             "Sturdy": 1
@@ -2883,7 +2883,7 @@
             }
         }
     },
-    "basculegion-f": {
+    "basculegionf": {
         "level": 83,
         "abilities": {
             "Adaptability": 1
@@ -3735,7 +3735,7 @@
             }
         }
     },
-    "braviary-hisui": {
+    "braviaryhisui": {
         "level": 85,
         "abilities": {
             "Tinted Lens": 0.6805,
@@ -3972,7 +3972,7 @@
             }
         }
     },
-    "brute bonnet": {
+    "brutebonnet": {
         "level": 81,
         "abilities": {
             "Protosynthesis": 1
@@ -4298,7 +4298,7 @@
             "atk": 0
         }
     },
-    "calyrex-ice": {
+    "calyrexice": {
         "level": 72,
         "abilities": {
             "As One (Glastrier)": 1
@@ -4370,7 +4370,7 @@
             }
         }
     },
-    "calyrex-shadow": {
+    "calyrexshadow": {
         "level": 64,
         "abilities": {
             "As One (Spectrier)": 1
@@ -4924,7 +4924,7 @@
             }
         }
     },
-    "chi-yu": {
+    "chiyu": {
         "level": 77,
         "abilities": {
             "Beads of Ruin": 1
@@ -4995,7 +4995,7 @@
             "atk": 0
         }
     },
-    "chien-pao": {
+    "chienpao": {
         "level": 72,
         "abilities": {
             "Sword of Ruin": 1
@@ -6576,7 +6576,7 @@
             }
         }
     },
-    "decidueye-hisui": {
+    "decidueyehisui": {
         "level": 87,
         "abilities": {
             "Scrappy": 1
@@ -6889,7 +6889,7 @@
             }
         }
     },
-    "deoxys-attack": {
+    "deoxysattack": {
         "level": 72,
         "abilities": {
             "Pressure": 1
@@ -6971,7 +6971,7 @@
             }
         }
     },
-    "deoxys-defense": {
+    "deoxysdefense": {
         "level": 86,
         "abilities": {
             "Pressure": 1
@@ -7075,7 +7075,7 @@
             }
         }
     },
-    "deoxys-speed": {
+    "deoxysspeed": {
         "level": 82,
         "abilities": {
             "Pressure": 1
@@ -7333,7 +7333,7 @@
             }
         }
     },
-    "dialga-origin": {
+    "dialgaorigin": {
         "level": 73,
         "abilities": {
             "Pressure": 1
@@ -8323,7 +8323,7 @@
             }
         }
     },
-    "dugtrio-alola": {
+    "dugtrioalola": {
         "level": 84,
         "abilities": {
             "Tangling Hair": 0.9969,
@@ -8926,7 +8926,7 @@
             }
         }
     },
-    "electrode-hisui": {
+    "electrodehisui": {
         "level": 87,
         "abilities": {
             "Soundproof": 0.6543,
@@ -9248,7 +9248,7 @@
             }
         }
     },
-    "enamorus-therian": {
+    "enamorustherian": {
         "level": 83,
         "abilities": {
             "Overcoat": 1
@@ -9753,7 +9753,7 @@
             "atk": 0
         }
     },
-    "exeggutor-alola": {
+    "exeggutoralola": {
         "level": 89,
         "abilities": {
             "Frisk": 0.6619,
@@ -10536,7 +10536,7 @@
             "atk": 0
         }
     },
-    "flutter mane": {
+    "fluttermane": {
         "level": 74,
         "abilities": {
             "Protosynthesis": 1
@@ -11709,7 +11709,7 @@
             }
         }
     },
-    "giratina-origin": {
+    "giratinaorigin": {
         "level": 72,
         "abilities": {
             "Levitate": 1
@@ -12258,7 +12258,7 @@
             }
         }
     },
-    "golem-alola": {
+    "golemalola": {
         "level": 93,
         "abilities": {
             "Galvanize": 1
@@ -12443,7 +12443,7 @@
             }
         }
     },
-    "goodra-hisui": {
+    "goodrahisui": {
         "level": 82,
         "abilities": {
             "Sap Sipper": 1
@@ -12576,7 +12576,7 @@
             "atk": 0
         }
     },
-    "gouging fire": {
+    "gougingfire": {
         "level": 74,
         "abilities": {
             "Protosynthesis": 1
@@ -12850,7 +12850,7 @@
             }
         }
     },
-    "great tusk": {
+    "greattusk": {
         "level": 77,
         "abilities": {
             "Protosynthesis": 1
@@ -13077,7 +13077,7 @@
             }
         }
     },
-    "greninja-bond": {
+    "greninjabond": {
         "level": 80,
         "abilities": {
             "Battle Bond": 1
@@ -14347,7 +14347,7 @@
             }
         }
     },
-    "ho-oh": {
+    "hooh": {
         "level": 71,
         "abilities": {
             "Regenerator": 1
@@ -14522,7 +14522,7 @@
             "atk": 0
         }
     },
-    "hoopa-unbound": {
+    "hoopaunbound": {
         "level": 80,
         "abilities": {
             "Magician": 1
@@ -15217,7 +15217,7 @@
             "atk": 0
         }
     },
-    "indeedee-f": {
+    "indeedeef": {
         "level": 90,
         "abilities": {
             "Psychic Surge": 1
@@ -15442,7 +15442,7 @@
             }
         }
     },
-    "iron boulder": {
+    "ironboulder": {
         "level": 77,
         "abilities": {
             "Quark Drive": 1
@@ -15522,7 +15522,7 @@
             }
         }
     },
-    "iron bundle": {
+    "ironbundle": {
         "level": 77,
         "abilities": {
             "Quark Drive": 1
@@ -15574,7 +15574,7 @@
             }
         }
     },
-    "iron crown": {
+    "ironcrown": {
         "level": 79,
         "abilities": {
             "Quark Drive": 1
@@ -15621,7 +15621,7 @@
             "atk": 0
         }
     },
-    "iron hands": {
+    "ironhands": {
         "level": 79,
         "abilities": {
             "Quark Drive": 1
@@ -15709,7 +15709,7 @@
             }
         }
     },
-    "iron jugulis": {
+    "ironjugulis": {
         "level": 78,
         "abilities": {
             "Quark Drive": 1
@@ -15760,7 +15760,7 @@
             }
         }
     },
-    "iron leaves": {
+    "ironleaves": {
         "level": 80,
         "abilities": {
             "Quark Drive": 1
@@ -15808,7 +15808,7 @@
             }
         }
     },
-    "iron moth": {
+    "ironmoth": {
         "level": 78,
         "abilities": {
             "Quark Drive": 1
@@ -15859,7 +15859,7 @@
             }
         }
     },
-    "iron thorns": {
+    "ironthorns": {
         "level": 83,
         "abilities": {
             "Quark Drive": 1
@@ -15949,7 +15949,7 @@
             }
         }
     },
-    "iron treads": {
+    "irontreads": {
         "level": 77,
         "abilities": {
             "Quark Drive": 1
@@ -15999,7 +15999,7 @@
             }
         }
     },
-    "iron valiant": {
+    "ironvaliant": {
         "level": 79,
         "abilities": {
             "Quark Drive": 1
@@ -16373,7 +16373,7 @@
             "hp": 81
         }
     },
-    "keldeo-resolute": {
+    "keldeoresolute": {
         "level": 79,
         "abilities": {
             "Justified": 1
@@ -16974,7 +16974,7 @@
             }
         }
     },
-    "kommo-o": {
+    "kommoo": {
         "level": 78,
         "abilities": {
             "Soundproof": 1
@@ -17387,7 +17387,7 @@
             }
         }
     },
-    "kyurem-black": {
+    "kyuremblack": {
         "level": 71,
         "abilities": {
             "Teravolt": 1
@@ -17466,7 +17466,7 @@
             }
         }
     },
-    "kyurem-white": {
+    "kyuremwhite": {
         "level": 73,
         "abilities": {
             "Turboblaze": 1
@@ -17586,7 +17586,7 @@
             }
         }
     },
-    "landorus-therian": {
+    "landorustherian": {
         "level": 76,
         "abilities": {
             "Intimidate": 1
@@ -18084,7 +18084,7 @@
             "atk": 0
         }
     },
-    "lilligant-hisui": {
+    "lilliganthisui": {
         "level": 80,
         "abilities": {
             "Hustle": 1
@@ -18811,7 +18811,7 @@
             }
         }
     },
-    "lycanroc-dusk": {
+    "lycanrocdusk": {
         "level": 80,
         "abilities": {
             "Tough Claws": 1
@@ -18860,7 +18860,7 @@
             }
         }
     },
-    "lycanroc-midnight": {
+    "lycanrocmidnight": {
         "level": 89,
         "abilities": {
             "No Guard": 1
@@ -20013,7 +20013,7 @@
             "atk": 0
         }
     },
-    "meowstic-f": {
+    "meowsticf": {
         "level": 89,
         "abilities": {
             "Competitive": 1
@@ -21095,7 +21095,7 @@
             }
         }
     },
-    "moltres-galar": {
+    "moltresgalar": {
         "level": 79,
         "abilities": {
             "Berserk": 1
@@ -21358,7 +21358,7 @@
             }
         }
     },
-    "muk-alola": {
+    "mukalola": {
         "level": 82,
         "abilities": {
             "Poison Touch": 1
@@ -21565,7 +21565,7 @@
             }
         }
     },
-    "necrozma-dawn-wings": {
+    "necrozmadawnwings": {
         "level": 76,
         "abilities": {
             "Prism Armor": 1
@@ -21636,7 +21636,7 @@
             }
         }
     },
-    "necrozma-dusk-mane": {
+    "necrozmaduskmane": {
         "level": 69,
         "abilities": {
             "Prism Armor": 1
@@ -21761,7 +21761,7 @@
             "atk": 0
         }
     },
-    "ninetales-alola": {
+    "ninetalesalola": {
         "level": 78,
         "abilities": {
             "Snow Warning": 1
@@ -22072,7 +22072,7 @@
             }
         }
     },
-    "ogerpon-cornerstone": {
+    "ogerponcornerstone": {
         "level": 76,
         "abilities": {
             "Sturdy": 1
@@ -22154,7 +22154,7 @@
             }
         }
     },
-    "ogerpon-hearthflame": {
+    "ogerponhearthflame": {
         "level": 74,
         "abilities": {
             "Mold Breaker": 1
@@ -22199,7 +22199,7 @@
             "hp": 77
         }
     },
-    "ogerpon-wellspring": {
+    "ogerponwellspring": {
         "level": 76,
         "abilities": {
             "Water Absorb": 1
@@ -22328,7 +22328,7 @@
             }
         }
     },
-    "oinkologne-f": {
+    "oinkolognef": {
         "level": 92,
         "abilities": {
             "Thick Fat": 1
@@ -22572,7 +22572,7 @@
             "atk": 0
         }
     },
-    "oricorio-pa'u": {
+    "oricoriopau": {
         "level": 87,
         "abilities": {
             "Dancer": 1
@@ -22614,7 +22614,7 @@
             "atk": 0
         }
     },
-    "oricorio-pom-pom": {
+    "oricoriopompom": {
         "level": 82,
         "abilities": {
             "Dancer": 1
@@ -22655,7 +22655,7 @@
             "atk": 0
         }
     },
-    "oricorio-sensu": {
+    "oricoriosensu": {
         "level": 85,
         "abilities": {
             "Dancer": 1
@@ -23033,7 +23033,7 @@
             "atk": 0
         }
     },
-    "palkia-origin": {
+    "palkiaorigin": {
         "level": 72,
         "abilities": {
             "Pressure": 1
@@ -23554,7 +23554,7 @@
             }
         }
     },
-    "persian-alola": {
+    "persianalola": {
         "level": 86,
         "abilities": {
             "Fur Coat": 1
@@ -24117,7 +24117,7 @@
             "atk": 0
         }
     },
-    "porygon-z": {
+    "porygonz": {
         "level": 83,
         "abilities": {
             "Adaptability": 0.7331,
@@ -24675,7 +24675,7 @@
             }
         }
     },
-    "qwilfish-hisui": {
+    "qwilfishhisui": {
         "level": 83,
         "abilities": {
             "Intimidate": 1
@@ -24764,7 +24764,7 @@
             "atk": 0
         }
     },
-    "raging bolt": {
+    "ragingbolt": {
         "level": 78,
         "abilities": {
             "Protosynthesis": 1
@@ -24919,7 +24919,7 @@
             }
         }
     },
-    "raichu-alola": {
+    "raichualola": {
         "level": 87,
         "abilities": {
             "Surge Surfer": 1
@@ -26181,7 +26181,7 @@
             }
         }
     },
-    "roaring moon": {
+    "roaringmoon": {
         "level": 72,
         "abilities": {
             "Protosynthesis": 1
@@ -26352,7 +26352,7 @@
             "atk": 0
         }
     },
-    "rotom-fan": {
+    "rotomfan": {
         "level": 86,
         "abilities": {
             "Levitate": 1
@@ -26395,7 +26395,7 @@
             "atk": 0
         }
     },
-    "rotom-frost": {
+    "rotomfrost": {
         "level": 87,
         "abilities": {
             "Levitate": 1
@@ -26437,7 +26437,7 @@
             "atk": 0
         }
     },
-    "rotom-heat": {
+    "rotomheat": {
         "level": 83,
         "abilities": {
             "Levitate": 1
@@ -26484,7 +26484,7 @@
             "atk": 0
         }
     },
-    "rotom-mow": {
+    "rotommow": {
         "level": 86,
         "abilities": {
             "Levitate": 1
@@ -26530,7 +26530,7 @@
             "atk": 0
         }
     },
-    "rotom-wash": {
+    "rotomwash": {
         "level": 82,
         "abilities": {
             "Levitate": 1
@@ -26830,7 +26830,7 @@
             }
         }
     },
-    "samurott-hisui": {
+    "samurotthisui": {
         "level": 77,
         "abilities": {
             "Sharpness": 1
@@ -27052,7 +27052,7 @@
             }
         }
     },
-    "sandslash-alola": {
+    "sandslashalola": {
         "level": 88,
         "abilities": {
             "Slush Rush": 1
@@ -27144,7 +27144,7 @@
             }
         }
     },
-    "sandy shocks": {
+    "sandyshocks": {
         "level": 80,
         "abilities": {
             "Protosynthesis": 1
@@ -27680,7 +27680,7 @@
             }
         }
     },
-    "scream tail": {
+    "screamtail": {
         "level": 84,
         "abilities": {
             "Protosynthesis": 1
@@ -28066,7 +28066,7 @@
             "atk": 0
         }
     },
-    "shaymin-sky": {
+    "shayminsky": {
         "level": 73,
         "abilities": {
             "Serene Grace": 1
@@ -28612,7 +28612,7 @@
             }
         }
     },
-    "slither wing": {
+    "slitherwing": {
         "level": 81,
         "abilities": {
             "Protosynthesis": 1
@@ -28802,7 +28802,7 @@
             "atk": 0
         }
     },
-    "slowbro-galar": {
+    "slowbrogalar": {
         "level": 87,
         "abilities": {
             "Regenerator": 1
@@ -29020,7 +29020,7 @@
             "atk": 0
         }
     },
-    "slowking-galar": {
+    "slowkinggalar": {
         "level": 85,
         "abilities": {
             "Regenerator": 1
@@ -29648,7 +29648,7 @@
             }
         }
     },
-    "squawkabilly-blue": {
+    "squawkabillyblue": {
         "level": 85,
         "abilities": {
             "Guts": 1
@@ -29694,7 +29694,7 @@
             }
         }
     },
-    "squawkabilly-white": {
+    "squawkabillywhite": {
         "level": 89,
         "abilities": {
             "Hustle": 1
@@ -29743,7 +29743,7 @@
             }
         }
     },
-    "squawkabilly-yellow": {
+    "squawkabillyyellow": {
         "level": 89,
         "abilities": {
             "Hustle": 1
@@ -30574,7 +30574,7 @@
             }
         }
     },
-    "tauros-paldea-aqua": {
+    "taurospaldeaaqua": {
         "level": 81,
         "abilities": {
             "Intimidate": 0.6821,
@@ -30686,7 +30686,7 @@
             }
         }
     },
-    "tauros-paldea-blaze": {
+    "taurospaldeablaze": {
         "level": 81,
         "abilities": {
             "Cud Chew": 0.5077,
@@ -30762,7 +30762,7 @@
             }
         }
     },
-    "tauros-paldea-combat": {
+    "taurospaldeacombat": {
         "level": 83,
         "abilities": {
             "Intimidate": 1
@@ -31160,7 +31160,7 @@
             }
         }
     },
-    "thundurus-therian": {
+    "thundurustherian": {
         "level": 80,
         "abilities": {
             "Volt Absorb": 1
@@ -31234,7 +31234,7 @@
             "atk": 0
         }
     },
-    "ting-lu": {
+    "tinglu": {
         "level": 78,
         "abilities": {
             "Vessel of Ruin": 1
@@ -31589,7 +31589,7 @@
             }
         }
     },
-    "tornadus-therian": {
+    "tornadustherian": {
         "level": 79,
         "abilities": {
             "Regenerator": 1
@@ -32217,7 +32217,7 @@
             "atk": 0
         }
     },
-    "typhlosion-hisui": {
+    "typhlosionhisui": {
         "level": 83,
         "abilities": {
             "Blaze": 1
@@ -32466,7 +32466,7 @@
             }
         }
     },
-    "ursaluna-bloodmoon": {
+    "ursalunabloodmoon": {
         "level": 79,
         "abilities": {
             "Mind's Eye": 1
@@ -32636,7 +32636,7 @@
             }
         }
     },
-    "urshifu-rapid-strike": {
+    "urshifurapidstrike": {
         "level": 75,
         "abilities": {
             "Unseen Fist": 1
@@ -33675,7 +33675,7 @@
             "atk": 0
         }
     },
-    "walking wake": {
+    "walkingwake": {
         "level": 79,
         "abilities": {
             "Protosynthesis": 1
@@ -33843,7 +33843,7 @@
             }
         }
     },
-    "weezing-galar": {
+    "weezinggalar": {
         "level": 86,
         "abilities": {
             "Levitate": 1
@@ -34097,7 +34097,7 @@
             }
         }
     },
-    "wo-chien": {
+    "wochien": {
         "level": 83,
         "abilities": {
             "Tablets of Ruin": 1
@@ -34360,7 +34360,7 @@
             }
         }
     },
-    "zacian-crowned": {
+    "zaciancrowned": {
         "level": 64,
         "abilities": {
             "Intrepid Sword": 1
@@ -34493,7 +34493,7 @@
             }
         }
     },
-    "zamazenta-crowned": {
+    "zamazentacrowned": {
         "level": 68,
         "abilities": {
             "Dauntless Shield": 1
@@ -34634,7 +34634,7 @@
             }
         }
     },
-    "zapdos-galar": {
+    "zapdosgalar": {
         "level": 77,
         "abilities": {
             "Defiant": 1
@@ -34917,7 +34917,7 @@
             }
         }
     },
-    "zoroark-hisui": {
+    "zoroarkhisui": {
         "level": 80,
         "abilities": {
             "Illusion": 1
@@ -34988,6 +34988,9 @@
                     "Choice Band": 0.1953,
                     "Focus Sash": 0.1278
                 },
+                "abilities": {
+                    "Justified": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35037,6 +35040,9 @@
                     "Life Orb": 0.0356,
                     "Leftovers": 0.0231
                 },
+                "abilities": {
+                    "Sticky Hold": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35077,6 +35083,9 @@
                     "Leftovers": 0.8438,
                     "Life Orb": 0.1562
                 },
+                "abilities": {
+                    "Stance Change": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35096,7 +35105,7 @@
             }
         }
     },
-    "aegislash-blade": {
+    "aegislashblade": {
         "level": 80,
         "abilities": {
             "Stance Change": 1
@@ -35114,6 +35123,9 @@
                 "items": {
                     "Life Orb": 0.8173,
                     "Choice Band": 0.1827
+                },
+                "abilities": {
+                    "Stance Change": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35154,6 +35166,9 @@
                     "Choice Band": 0.2039,
                     "Life Orb": 0.0339
                 },
+                "abilities": {
+                    "Unnerve": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35192,6 +35207,9 @@
                 "items": {
                     "Air Balloon": 0.9034,
                     "Choice Band": 0.0966
+                },
+                "abilities": {
+                    "Rock Head": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35237,6 +35255,9 @@
                     "Life Orb": 0.7829,
                     "Focus Sash": 0.2171
                 },
+                "abilities": {
+                    "Magic Guard": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35256,7 +35277,7 @@
             }
         }
     },
-    "alcremie-gmax": {
+    "alcremiegmax": {
         "level": 85,
         "abilities": {
             "Aroma Veil": 0.5103,
@@ -35281,6 +35302,10 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Aroma Veil": 0.5103,
+                    "Sweet Veil": 0.4897
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35300,7 +35325,7 @@
             }
         }
     },
-    "appletun-gmax": {
+    "appletungmax": {
         "level": 91,
         "abilities": {
             "Thick Fat": 1
@@ -35322,6 +35347,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Thick Fat": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35361,6 +35389,9 @@
                     "Heavy-Duty Boots": 0.8015,
                     "Choice Band": 0.1985
                 },
+                "abilities": {
+                    "Defeatist": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35399,6 +35430,10 @@
                 "items": {
                     "Assault Vest": 0.5764,
                     "Choice Band": 0.4236
+                },
+                "abilities": {
+                    "Water Absorb": 0.9952,
+                    "Slush Rush": 0.0048
                 },
                 "ivs": {
                     "hp": 31,
@@ -35440,6 +35475,10 @@
                     "Assault Vest": 0.1908,
                     "Life Orb": 0.0496
                 },
+                "abilities": {
+                    "Volt Absorb": 0.9943,
+                    "Slush Rush": 0.0057
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35480,6 +35519,9 @@
                     "Heavy-Duty Boots": 0.9291,
                     "Life Orb": 0.0367,
                     "Choice Band": 0.0342
+                },
+                "abilities": {
+                    "Swift Swim": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35524,6 +35566,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Aroma Veil": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35560,6 +35605,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Regenerator": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35607,6 +35655,9 @@
                     "Choice Specs": 0.1986,
                     "Leftovers": 0.0507
                 },
+                "abilities": {
+                    "Snow Warning": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35645,6 +35696,9 @@
                     "White Herb": 0.8121,
                     "Choice Scarf": 0.1208,
                     "Choice Band": 0.0671
+                },
+                "abilities": {
+                    "Tough Claws": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35690,6 +35744,9 @@
                     "Life Orb": 0.6405,
                     "Choice Specs": 0.3595
                 },
+                "abilities": {
+                    "Analytic": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35729,6 +35786,9 @@
                     "Choice Scarf": 0.125,
                     "Choice Band": 0.0739
                 },
+                "abilities": {
+                    "Fluffy": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35766,6 +35826,9 @@
                 "items": {
                     "Life Orb": 0.9582,
                     "Focus Sash": 0.0418
+                },
+                "abilities": {
+                    "Defiant": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35813,6 +35876,9 @@
                     "Focus Sash": 0.1453,
                     "Life Orb": 0.0447
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35832,7 +35898,7 @@
             }
         }
     },
-    "blastoise-gmax": {
+    "blastoisegmax": {
         "level": 82,
         "abilities": {
             "Torrent": 1
@@ -35849,6 +35915,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Torrent": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -35891,6 +35960,9 @@
                     "Focus Sash": 0.1262,
                     "Choice Band": 0.1199
                 },
+                "abilities": {
+                    "Strong Jaw": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35929,6 +36001,10 @@
                 "items": {
                     "Leftovers": 0.8016,
                     "Choice Band": 0.1984
+                },
+                "abilities": {
+                    "Reckless": 0.507,
+                    "Sap Sipper": 0.493
                 },
                 "ivs": {
                     "hp": 31,
@@ -35972,6 +36048,9 @@
                 "items": {
                     "Heavy-Duty Boots": 1
                 },
+                "abilities": {
+                    "Compound Eyes": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -35991,7 +36070,7 @@
             }
         }
     },
-    "butterfree-gmax": {
+    "butterfreegmax": {
         "level": 87,
         "abilities": {
             "Tinted Lens": 1
@@ -36013,6 +36092,9 @@
                 },
                 "items": {
                     "Heavy-Duty Boots": 1
+                },
+                "abilities": {
+                    "Tinted Lens": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36053,6 +36135,9 @@
                     "Choice Band": 0.7114,
                     "Choice Scarf": 0.2886
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36091,6 +36176,10 @@
                 "items": {
                     "White Herb": 0.5071,
                     "Weakness Policy": 0.4929
+                },
+                "abilities": {
+                    "Swift Swim": 0.5071,
+                    "Solid Rock": 0.4929
                 },
                 "ivs": {
                     "hp": 31,
@@ -36135,6 +36224,9 @@
                     "Choice Specs": 0.0432,
                     "Choice Scarf": 0.0187
                 },
+                "abilities": {
+                    "Natural Cure": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36174,6 +36266,9 @@
                     "Leftovers": 0.8619,
                     "Assault Vest": 0.1381
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36210,6 +36305,9 @@
                 },
                 "items": {
                     "Heavy-Duty Boots": 1
+                },
+                "abilities": {
+                    "Flash Fire": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36254,6 +36352,9 @@
                 "items": {
                     "Choice Scarf": 1
                 },
+                "abilities": {
+                    "Flower Gift": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36273,7 +36374,7 @@
             }
         }
     },
-    "cinderace-gmax": {
+    "cinderacegmax": {
         "level": 74,
         "abilities": {
             "Libero": 1
@@ -36290,6 +36391,9 @@
                 "items": {
                     "Heavy-Duty Boots": 0.9311,
                     "Life Orb": 0.0689
+                },
+                "abilities": {
+                    "Libero": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36330,6 +36434,9 @@
                     "Leftovers": 0.9071,
                     "Assault Vest": 0.0929
                 },
+                "abilities": {
+                    "Levitate": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36349,7 +36456,7 @@
             }
         }
     },
-    "coalossal-gmax": {
+    "coalossalgmax": {
         "level": 88,
         "abilities": {
             "Flame Body": 1
@@ -36368,6 +36475,9 @@
                 "items": {
                     "Heavy-Duty Boots": 0.9757,
                     "Air Balloon": 0.0243
+                },
+                "abilities": {
+                    "Flame Body": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36412,6 +36522,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Mummy": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36431,7 +36544,7 @@
             }
         }
     },
-    "copperajah-gmax": {
+    "copperajahgmax": {
         "level": 83,
         "abilities": {
             "Heavy Metal": 1
@@ -36448,6 +36561,9 @@
                 },
                 "items": {
                     "Choice Band": 1
+                },
+                "abilities": {
+                    "Heavy Metal": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36492,6 +36608,9 @@
                 "items": {
                     "Rocky Helmet": 1
                 },
+                "abilities": {
+                    "Regenerator": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36511,7 +36630,7 @@
             }
         }
     },
-    "corsola-galar": {
+    "corsolagalar": {
         "level": 84,
         "abilities": {
             "Cursed Body": 1
@@ -36534,6 +36653,9 @@
                 },
                 "items": {
                     "Eviolite": 1
+                },
+                "abilities": {
+                    "Cursed Body": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36572,6 +36694,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Storm Drain": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36613,6 +36738,9 @@
                     "Heavy-Duty Boots": 0.9733,
                     "Black Sludge": 0.0267
                 },
+                "abilities": {
+                    "Infiltrator": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36649,6 +36777,9 @@
                 "items": {
                     "Heavy-Duty Boots": 0.8377,
                     "White Herb": 0.1623
+                },
+                "abilities": {
+                    "Sturdy": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36696,6 +36827,9 @@
                     "Choice Specs": 0.0965,
                     "Focus Sash": 0.0244
                 },
+                "abilities": {
+                    "Weak Armor": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36733,6 +36867,9 @@
                 "items": {
                     "Life Orb": 1
                 },
+                "abilities": {
+                    "Sheer Force": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36752,7 +36889,7 @@
             }
         }
     },
-    "darmanitan-galar": {
+    "darmanitangalar": {
         "level": 77,
         "abilities": {
             "Gorilla Tactics": 1
@@ -36773,6 +36910,9 @@
                 "items": {
                     "Choice Scarf": 1
                 },
+                "abilities": {
+                    "Gorilla Tactics": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36792,7 +36932,7 @@
             }
         }
     },
-    "darmanitan-galar-zen": {
+    "darmanitangalarzen": {
         "level": 77,
         "abilities": {
             "Zen Mode": 1
@@ -36809,6 +36949,9 @@
                 },
                 "items": {
                     "Salac Berry": 1
+                },
+                "abilities": {
+                    "Zen Mode": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36850,6 +36993,9 @@
                     "Choice Band": 0.1063,
                     "Assault Vest": 0.0933
                 },
+                "abilities": {
+                    "Steelworker": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36890,6 +37036,9 @@
                     "Choice Band": 0.1816,
                     "Choice Scarf": 0.0776
                 },
+                "abilities": {
+                    "Huge Power": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -36926,6 +37075,9 @@
                 },
                 "items": {
                     "Eviolite": 1
+                },
+                "abilities": {
+                    "No Guard": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -36965,6 +37117,10 @@
                 "items": {
                     "Choice Band": 1
                 },
+                "abilities": {
+                    "Strong Jaw": 0.9915,
+                    "Sand Rush": 0.0085
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37003,6 +37159,10 @@
                 "items": {
                     "Choice Scarf": 0.6624,
                     "Choice Band": 0.3376
+                },
+                "abilities": {
+                    "Hustle": 0.9953,
+                    "Sand Rush": 0.0047
                 },
                 "ivs": {
                     "hp": 31,
@@ -37050,6 +37210,10 @@
                     "Leftovers": 0.878,
                     "Choice Specs": 0.122
                 },
+                "abilities": {
+                    "Berserk": 0.878,
+                    "Sap Sipper": 0.122
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37090,6 +37254,9 @@
                     "Life Orb": 0.8214,
                     "Black Sludge": 0.1347,
                     "Choice Band": 0.0439
+                },
+                "abilities": {
+                    "Sniper": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37132,6 +37299,10 @@
                     "Life Orb": 0.5615,
                     "Choice Band": 0.2498,
                     "Leftovers": 0.1886
+                },
+                "abilities": {
+                    "Rough Skin": 0.5207,
+                    "Mold Breaker": 0.4793
                 },
                 "ivs": {
                     "hp": 31,
@@ -37176,6 +37347,10 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Fluffy": 0.6611,
+                    "Bulletproof": 0.3389
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37214,6 +37389,9 @@
                     "Life Orb": 0.7941,
                     "Choice Band": 0.2059
                 },
+                "abilities": {
+                    "Hustle": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37251,6 +37429,9 @@
                 "items": {
                     "Heavy-Duty Boots": 0.679,
                     "Leftovers": 0.321
+                },
+                "abilities": {
+                    "Regenerator": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37294,6 +37475,9 @@
                     "Choice Specs": 0.0418,
                     "Life Orb": 0.0014
                 },
+                "abilities": {
+                    "Motor Drive": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37333,6 +37517,10 @@
                 "items": {
                     "Leftovers": 0.7191,
                     "Choice Band": 0.2809
+                },
+                "abilities": {
+                    "Overcoat": 0.5106,
+                    "Swarm": 0.4894
                 },
                 "ivs": {
                     "hp": 31,
@@ -37376,6 +37564,9 @@
                 "items": {
                     "Choice Specs": 1
                 },
+                "abilities": {
+                    "Scrappy": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37395,7 +37586,7 @@
             }
         }
     },
-    "farfetch\u2019d": {
+    "farfetchd": {
         "level": 91,
         "abilities": {
             "Defiant": 1
@@ -37412,6 +37603,9 @@
                 },
                 "items": {
                     "Leek": 1
+                },
+                "abilities": {
+                    "Defiant": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37452,6 +37646,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Iron Barbs": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37471,7 +37668,7 @@
             }
         }
     },
-    "garbodor-gmax": {
+    "garbodorgmax": {
         "level": 87,
         "abilities": {
             "Aftermath": 1
@@ -37491,6 +37688,9 @@
                     "Black Sludge": 0.7978,
                     "Focus Sash": 0.1483,
                     "Life Orb": 0.0539
+                },
+                "abilities": {
+                    "Aftermath": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37533,6 +37733,9 @@
                     "Assault Vest": 0.1571,
                     "Choice Band": 0.1018
                 },
+                "abilities": {
+                    "Download": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37552,7 +37755,7 @@
             }
         }
     },
-    "genesect-douse": {
+    "genesectdouse": {
         "level": 72,
         "abilities": {
             "Download": 1
@@ -37573,6 +37776,9 @@
                 "items": {
                     "Douse Drive": 1
                 },
+                "abilities": {
+                    "Download": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37592,7 +37798,7 @@
             }
         }
     },
-    "gengar-gmax": {
+    "gengargmax": {
         "level": 80,
         "abilities": {
             "Cursed Body": 1
@@ -37617,6 +37823,9 @@
                     "Life Orb": 0.6681,
                     "Choice Specs": 0.2077,
                     "Focus Sash": 0.1242
+                },
+                "abilities": {
+                    "Cursed Body": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37656,6 +37865,9 @@
                     "Leftovers": 0.6352,
                     "Choice Band": 0.3648
                 },
+                "abilities": {
+                    "Sand Stream": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37693,6 +37905,9 @@
                 "items": {
                     "Heavy-Duty Boots": 0.8948,
                     "Choice Band": 0.1052
+                },
+                "abilities": {
+                    "Emergency Exit": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37732,6 +37947,9 @@
                     "Life Orb": 0.5581,
                     "Leftovers": 0.4419
                 },
+                "abilities": {
+                    "Frisk": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37751,7 +37969,7 @@
             }
         }
     },
-    "gourgeist-large": {
+    "gourgeistlarge": {
         "level": 84,
         "abilities": {
             "Frisk": 1
@@ -37770,6 +37988,9 @@
                     "Leftovers": 0.5,
                     "Life Orb": 0.5
                 },
+                "abilities": {
+                    "Frisk": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37789,7 +38010,7 @@
             }
         }
     },
-    "gourgeist-small": {
+    "gourgeistsmall": {
         "level": 84,
         "abilities": {
             "Frisk": 1
@@ -37807,6 +38028,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Frisk": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37826,7 +38050,7 @@
             }
         }
     },
-    "gourgeist-super": {
+    "gourgeistsuper": {
         "level": 84,
         "abilities": {
             "Frisk": 1
@@ -37844,6 +38068,9 @@
                 "items": {
                     "Life Orb": 0.5268,
                     "Choice Band": 0.4732
+                },
+                "abilities": {
+                    "Frisk": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37883,6 +38110,10 @@
                 "items": {
                     "Life Orb": 1
                 },
+                "abilities": {
+                    "Technician": 0.7344,
+                    "Limber": 0.2656
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37902,7 +38133,7 @@
             }
         }
     },
-    "grimmsnarl-gmax": {
+    "grimmsnarlgmax": {
         "level": 84,
         "abilities": {
             "Prankster": 1
@@ -37922,6 +38153,9 @@
                     "Chesto Berry": 0.5948,
                     "Life Orb": 0.3027,
                     "Choice Band": 0.1025
+                },
+                "abilities": {
+                    "Prankster": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -37961,6 +38195,9 @@
                     "Assault Vest": 0.8079,
                     "Choice Specs": 0.1921
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -37980,7 +38217,7 @@
             }
         }
     },
-    "hatterene-gmax": {
+    "hatterenegmax": {
         "level": 86,
         "abilities": {
             "Magic Bounce": 1
@@ -38006,6 +38243,9 @@
                     "Life Orb": 0.5097,
                     "Leftovers": 0.4184,
                     "Choice Specs": 0.0719
+                },
+                "abilities": {
+                    "Magic Bounce": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38046,6 +38286,9 @@
                     "Heavy-Duty Boots": 0.936,
                     "Leftovers": 0.0538,
                     "Life Orb": 0.0101
+                },
+                "abilities": {
+                    "Flash Fire": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38093,6 +38336,9 @@
                     "Choice Specs": 0.2981,
                     "Focus Sash": 0.1192
                 },
+                "abilities": {
+                    "Dry Skin": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38112,7 +38358,7 @@
             }
         }
     },
-    "inteleon-gmax": {
+    "inteleongmax": {
         "level": 80,
         "abilities": {
             "Sniper": 1
@@ -38134,6 +38380,9 @@
                 },
                 "items": {
                     "Scope Lens": 1
+                },
+                "abilities": {
+                    "Sniper": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38178,6 +38427,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Water Absorb": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38227,6 +38479,9 @@
                     "Life Orb": 0.0393,
                     "Leftovers": 0.0233
                 },
+                "abilities": {
+                    "Dry Skin": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38268,6 +38523,9 @@
                     "Assault Vest": 0.1659,
                     "Choice Band": 0.1006
                 },
+                "abilities": {
+                    "Swift Swim": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38305,6 +38563,9 @@
                 "items": {
                     "Assault Vest": 0.7381,
                     "Choice Band": 0.2619
+                },
+                "abilities": {
+                    "Scrappy": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38344,6 +38605,9 @@
                     "Life Orb": 0.7819,
                     "Choice Band": 0.2181
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38382,6 +38646,9 @@
                 "items": {
                     "Life Orb": 1
                 },
+                "abilities": {
+                    "Sheer Force": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38418,6 +38685,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Clear Body": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38437,7 +38707,7 @@
             }
         }
     },
-    "lapras-gmax": {
+    "laprasgmax": {
         "level": 85,
         "abilities": {
             "Water Absorb": 1
@@ -38463,6 +38733,9 @@
                     "Leftovers": 0.5522,
                     "Heavy-Duty Boots": 0.2844,
                     "Choice Specs": 0.1634
+                },
+                "abilities": {
+                    "Water Absorb": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38505,6 +38778,9 @@
                     "Leftovers": 0.9495,
                     "Choice Band": 0.0505
                 },
+                "abilities": {
+                    "Oblivious": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38544,6 +38820,9 @@
                     "Leftovers": 0.7476,
                     "Focus Sash": 0.153,
                     "Choice Band": 0.0994
+                },
+                "abilities": {
+                    "Prankster": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38588,6 +38867,9 @@
                     "Iapapa Berry": 0.1869,
                     "Aguav Berry": 0.1832
                 },
+                "abilities": {
+                    "Gluttony": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38623,6 +38905,9 @@
                 },
                 "items": {
                     "Toxic Orb": 1
+                },
+                "abilities": {
+                    "Cute Charm": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38670,6 +38955,9 @@
                     "Choice Specs": 0.0785,
                     "Focus Sash": 0.0392
                 },
+                "abilities": {
+                    "Levitate": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38709,6 +38997,10 @@
                 "items": {
                     "Flame Orb": 0.9234,
                     "Choice Band": 0.0766
+                },
+                "abilities": {
+                    "Guts": 0.9234,
+                    "No Guard": 0.0766
                 },
                 "ivs": {
                     "hp": 31,
@@ -38752,6 +39044,9 @@
                 },
                 "items": {
                     "Choice Scarf": 1
+                },
+                "abilities": {
+                    "Lightning Rod": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -38798,6 +39093,9 @@
                     "Heavy-Duty Boots": 0.9585,
                     "Leftovers": 0.0415
                 },
+                "abilities": {
+                    "Water Absorb": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38839,6 +39137,11 @@
                     "Leftovers": 0.8315,
                     "Focus Sash": 0.1685
                 },
+                "abilities": {
+                    "Water Absorb": 0.6629,
+                    "Storm Drain": 0.3315,
+                    "Chlorophyll": 0.0056
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38878,6 +39181,10 @@
                 "items": {
                     "Thick Club": 1
                 },
+                "abilities": {
+                    "Rock Head": 0.7136,
+                    "Battle Armor": 0.2864
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38897,7 +39204,7 @@
             }
         }
     },
-    "marowak-alola": {
+    "marowakalola": {
         "level": 83,
         "abilities": {
             "Rock Head": 0.533,
@@ -38916,6 +39223,10 @@
                 },
                 "items": {
                     "Thick Club": 1
+                },
+                "abilities": {
+                    "Rock Head": 0.533,
+                    "Lightning Rod": 0.467
                 },
                 "ivs": {
                     "hp": 31,
@@ -38956,6 +39267,9 @@
                     "Life Orb": 0.772,
                     "Choice Band": 0.228
                 },
+                "abilities": {
+                    "Technician": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -38995,6 +39309,10 @@
                     "Life Orb": 0.913,
                     "Focus Sash": 0.087
                 },
+                "abilities": {
+                    "Intimidate": 0.5084,
+                    "Sheer Force": 0.4916
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39032,6 +39350,9 @@
                 "items": {
                     "Leftovers": 0.7573,
                     "Choice Band": 0.2427
+                },
+                "abilities": {
+                    "Iron Fist": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39073,6 +39394,11 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Thick Fat": 0.5515,
+                    "Sap Sipper": 0.3066,
+                    "Scrappy": 0.1419
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39092,7 +39418,7 @@
             }
         }
     },
-    "mr. mime": {
+    "mrmime": {
         "level": 86,
         "abilities": {
             "Filter": 1
@@ -39117,6 +39443,9 @@
                     "Life Orb": 0.8113,
                     "Choice Scarf": 0.1887
                 },
+                "abilities": {
+                    "Filter": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39136,7 +39465,7 @@
             }
         }
     },
-    "mr. mime-galar": {
+    "mrmimegalar": {
         "level": 84,
         "abilities": {
             "Vital Spirit": 0.5136,
@@ -39155,6 +39484,10 @@
                 "items": {
                     "Eviolite": 1
                 },
+                "abilities": {
+                    "Vital Spirit": 0.5136,
+                    "Screen Cleaner": 0.4864
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39174,7 +39507,7 @@
             }
         }
     },
-    "mr. rime": {
+    "mrrime": {
         "level": 87,
         "abilities": {
             "Screen Cleaner": 0.9715,
@@ -39195,6 +39528,10 @@
                     "Heavy-Duty Boots": 0.8891,
                     "Choice Scarf": 0.0921,
                     "Life Orb": 0.0188
+                },
+                "abilities": {
+                    "Screen Cleaner": 0.9715,
+                    "Tangled Feet": 0.0285
                 },
                 "ivs": {
                     "hp": 31,
@@ -39238,6 +39575,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Synchronize": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39283,6 +39623,9 @@
                     "Life Orb": 0.7944,
                     "Choice Specs": 0.2056
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39319,6 +39662,9 @@
                 },
                 "items": {
                     "Life Orb": 1
+                },
+                "abilities": {
+                    "Sheer Force": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39362,6 +39708,9 @@
                 },
                 "items": {
                     "Life Orb": 1
+                },
+                "abilities": {
+                    "Sheer Force": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39410,6 +39759,9 @@
                     "Choice Scarf": 0.0961,
                     "Choice Specs": 0.0438
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39444,6 +39796,9 @@
                     "uturn": 1
                 },
                 "items": null,
+                "abilities": {
+                    "Speed Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39480,6 +39835,9 @@
                 },
                 "items": {
                     "Flame Orb": 1
+                },
+                "abilities": {
+                    "Guts": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39521,6 +39879,10 @@
                 "items": {
                     "Life Orb": 0.8462,
                     "Choice Specs": 0.1538
+                },
+                "abilities": {
+                    "Sniper": 0.9182,
+                    "Suction Cups": 0.0818
                 },
                 "ivs": {
                     "hp": 31,
@@ -39564,6 +39926,9 @@
                 "items": {
                     "White Herb": 1
                 },
+                "abilities": {
+                    "Swift Swim": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39604,6 +39969,9 @@
                     "Heavy-Duty Boots": 0.9583,
                     "Leftovers": 0.0417
                 },
+                "abilities": {
+                    "Frisk": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39640,6 +40008,9 @@
                 },
                 "items": {
                     "Choice Band": 1
+                },
+                "abilities": {
+                    "Scrappy": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39680,6 +40051,9 @@
                     "Choice Band": 0.2667,
                     "Life Orb": 0.1947,
                     "Focus Sash": 0.103
+                },
+                "abilities": {
+                    "Beast Boost": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39724,6 +40098,10 @@
                     "Focus Sash": 0.0948,
                     "Life Orb": 0.0404
                 },
+                "abilities": {
+                    "Mold Breaker": 0.5064,
+                    "Moxie": 0.4936
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39766,6 +40144,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Unaware": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39806,6 +40187,9 @@
                     "Leftovers": 0.0401,
                     "Life Orb": 0.0147
                 },
+                "abilities": {
+                    "Flash Fire": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39825,7 +40209,7 @@
             }
         }
     },
-    "rapidash-galar": {
+    "rapidashgalar": {
         "level": 83,
         "abilities": {
             "Pastel Veil": 1
@@ -39843,6 +40227,9 @@
                 "items": {
                     "Leftovers": 0.578,
                     "Life Orb": 0.422
+                },
+                "abilities": {
+                    "Pastel Veil": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39883,6 +40270,9 @@
                     "Leftovers": 0.7879,
                     "Choice Band": 0.2121
                 },
+                "abilities": {
+                    "Rock Head": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -39902,7 +40292,7 @@
             }
         }
     },
-    "rillaboom-gmax": {
+    "rillaboomgmax": {
         "level": 76,
         "abilities": {
             "Grassy Surge": 1
@@ -39920,6 +40310,9 @@
                 "items": {
                     "Life Orb": 0.5487,
                     "Grassy Seed": 0.4513
+                },
+                "abilities": {
+                    "Grassy Surge": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -39966,6 +40359,9 @@
                     "Black Sludge": 0.9524,
                     "Focus Sash": 0.0476
                 },
+                "abilities": {
+                    "Natural Cure": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40003,6 +40399,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Wandering Spirit": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -40043,6 +40442,10 @@
                     "Life Orb": 0.803,
                     "Choice Scarf": 0.1335,
                     "Choice Band": 0.0635
+                },
+                "abilities": {
+                    "Mold Breaker": 0.9448,
+                    "Sturdy": 0.0552
                 },
                 "ivs": {
                     "hp": 31,
@@ -40086,6 +40489,9 @@
                     "Heavy-Duty Boots": 0.1005,
                     "Focus Sash": 0.0228
                 },
+                "abilities": {
+                    "Speed Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40125,6 +40531,10 @@
                     "Life Orb": 0.8046,
                     "Choice Band": 0.1954
                 },
+                "abilities": {
+                    "Swift Swim": 0.8046,
+                    "Lightning Rod": 0.1954
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40163,6 +40573,10 @@
                 "items": {
                     "Life Orb": 1
                 },
+                "abilities": {
+                    "Swift Swim": 0.8287,
+                    "Water Absorb": 0.1713
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40198,6 +40612,9 @@
                 },
                 "items": {
                     "Life Orb": 1
+                },
+                "abilities": {
+                    "Speed Boost": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -40236,6 +40653,9 @@
                 "items": {
                     "Heavy-Duty Boots": 0.8691,
                     "Focus Sash": 0.1309
+                },
+                "abilities": {
+                    "Wonder Guard": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -40280,6 +40700,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Effect Spore": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40318,6 +40741,9 @@
                     "Mental Herb": 0.9828,
                     "Heavy-Duty Boots": 0.016,
                     "Leftovers": 0.0012
+                },
+                "abilities": {
+                    "Sturdy": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -40364,6 +40790,10 @@
                     "Life Orb": 0.6885,
                     "Choice Specs": 0.3115
                 },
+                "abilities": {
+                    "Magic Guard": 0.6885,
+                    "Tinted Lens": 0.3115
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40406,6 +40836,9 @@
                     "Assault Vest": 0.1835,
                     "Choice Band": 0.0375
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40425,7 +40858,7 @@
             }
         }
     },
-    "silvally-bug": {
+    "silvallybug": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40443,6 +40876,9 @@
                 "items": {
                     "Bug Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40462,7 +40898,7 @@
             }
         }
     },
-    "silvally-dark": {
+    "silvallydark": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40480,6 +40916,9 @@
                 "items": {
                     "Dark Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40499,7 +40938,7 @@
             }
         }
     },
-    "silvally-dragon": {
+    "silvallydragon": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40517,6 +40956,9 @@
                 "items": {
                     "Dragon Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40536,7 +40978,7 @@
             }
         }
     },
-    "silvally-electric": {
+    "silvallyelectric": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40554,6 +40996,9 @@
                 "items": {
                     "Electric Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40573,7 +41018,7 @@
             }
         }
     },
-    "silvally-fairy": {
+    "silvallyfairy": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40590,6 +41035,9 @@
                 "items": {
                     "Fairy Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40609,7 +41057,7 @@
             }
         }
     },
-    "silvally-fighting": {
+    "silvallyfighting": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40627,6 +41075,9 @@
                 "items": {
                     "Fighting Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40646,7 +41097,7 @@
             }
         }
     },
-    "silvally-fire": {
+    "silvallyfire": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40663,6 +41114,9 @@
                 "items": {
                     "Fire Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40682,7 +41136,7 @@
             }
         }
     },
-    "silvally-flying": {
+    "silvallyflying": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40700,6 +41154,9 @@
                 "items": {
                     "Flying Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40719,7 +41176,7 @@
             }
         }
     },
-    "silvally-ghost": {
+    "silvallyghost": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40737,6 +41194,9 @@
                 "items": {
                     "Ghost Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40756,7 +41216,7 @@
             }
         }
     },
-    "silvally-grass": {
+    "silvallygrass": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40774,6 +41234,9 @@
                 "items": {
                     "Grass Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40793,7 +41256,7 @@
             }
         }
     },
-    "silvally-ground": {
+    "silvallyground": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40812,6 +41275,9 @@
                 "items": {
                     "Ground Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40831,7 +41297,7 @@
             }
         }
     },
-    "silvally-ice": {
+    "silvallyice": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40848,6 +41314,9 @@
                 "items": {
                     "Ice Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40867,7 +41336,7 @@
             }
         }
     },
-    "silvally-poison": {
+    "silvallypoison": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40886,6 +41355,9 @@
                 "items": {
                     "Poison Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40905,7 +41377,7 @@
             }
         }
     },
-    "silvally-psychic": {
+    "silvallypsychic": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40922,6 +41394,9 @@
                 "items": {
                     "Psychic Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40941,7 +41416,7 @@
             }
         }
     },
-    "silvally-rock": {
+    "silvallyrock": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40959,6 +41434,9 @@
                 "items": {
                     "Rock Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -40978,7 +41456,7 @@
             }
         }
     },
-    "silvally-steel": {
+    "silvallysteel": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -40997,6 +41475,9 @@
                 "items": {
                     "Steel Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41016,7 +41497,7 @@
             }
         }
     },
-    "silvally-water": {
+    "silvallywater": {
         "level": 83,
         "abilities": {
             "RKS System": 1
@@ -41035,6 +41516,9 @@
                 "items": {
                     "Water Memory": 1
                 },
+                "abilities": {
+                    "RKS System": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41054,7 +41538,7 @@
             }
         }
     },
-    "sirfetch\u2019d": {
+    "sirfetchd": {
         "level": 82,
         "abilities": {
             "Scrappy": 1
@@ -41072,6 +41556,9 @@
                 "items": {
                     "Life Orb": 0.7983,
                     "Choice Band": 0.2017
+                },
+                "abilities": {
+                    "Scrappy": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -41112,6 +41599,9 @@
                 "items": {
                     "Sitrus Berry": 1
                 },
+                "abilities": {
+                    "Unburden": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41131,7 +41621,7 @@
             }
         }
     },
-    "snorlax-gmax": {
+    "snorlaxgmax": {
         "level": 83,
         "abilities": {
             "Thick Fat": 1
@@ -41149,6 +41639,9 @@
                 "items": {
                     "Chesto Berry": 0.5793,
                     "Leftovers": 0.4207
+                },
+                "abilities": {
+                    "Thick Fat": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -41188,6 +41681,9 @@
                 "items": {
                     "Leftovers": 0.933,
                     "Life Orb": 0.067
+                },
+                "abilities": {
+                    "Levitate": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -41234,6 +41730,9 @@
                     "Air Balloon": 0.7414,
                     "Choice Band": 0.2586
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41277,6 +41776,10 @@
                     "Leftovers": 0.2284,
                     "Choice Specs": 0.1531
                 },
+                "abilities": {
+                    "Natural Cure": 0.7657,
+                    "Analytic": 0.2343
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41315,6 +41818,10 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Rock Head": 0.9173,
+                    "Sturdy": 0.0827
                 },
                 "ivs": {
                     "hp": 31,
@@ -41356,6 +41863,11 @@
                     "Choice Scarf": 0.6606,
                     "Choice Band": 0.3394
                 },
+                "abilities": {
+                    "Intimidate": 0.6455,
+                    "Scrappy": 0.3508,
+                    "Sand Rush": 0.0036
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41395,6 +41907,10 @@
                     "Leftovers": 0.5693,
                     "Assault Vest": 0.4307
                 },
+                "abilities": {
+                    "Static": 0.9973,
+                    "Sand Veil": 0.0027
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41414,7 +41930,7 @@
             }
         }
     },
-    "stunfisk-galar": {
+    "stunfiskgalar": {
         "level": 84,
         "abilities": {
             "Mimicry": 1
@@ -41431,6 +41947,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Mimicry": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -41478,6 +41997,9 @@
                     "Focus Sash": 0.0411,
                     "Life Orb": 0.0109
                 },
+                "abilities": {
+                    "Simple": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41517,6 +42039,9 @@
                     "Rocky Helmet": 0.9174,
                     "Assault Vest": 0.0826
                 },
+                "abilities": {
+                    "Regenerator": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41536,7 +42061,7 @@
             }
         }
     },
-    "tapu bulu": {
+    "tapubulu": {
         "level": 82,
         "abilities": {
             "Grassy Surge": 1
@@ -41558,6 +42083,9 @@
                     "Lum Berry": 0.2255,
                     "Choice Band": 0.0941
                 },
+                "abilities": {
+                    "Grassy Surge": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41577,7 +42105,7 @@
             }
         }
     },
-    "tapu fini": {
+    "tapufini": {
         "level": 77,
         "abilities": {
             "Misty Surge": 1
@@ -41601,6 +42129,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Misty Surge": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41620,7 +42151,7 @@
             }
         }
     },
-    "tapu koko": {
+    "tapukoko": {
         "level": 76,
         "abilities": {
             "Electric Surge": 1
@@ -41647,6 +42178,9 @@
                     "Life Orb": 0.2754,
                     "Choice Specs": 0.1696
                 },
+                "abilities": {
+                    "Electric Surge": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41666,7 +42200,7 @@
             }
         }
     },
-    "tapu lele": {
+    "tapulele": {
         "level": 78,
         "abilities": {
             "Psychic Surge": 1
@@ -41692,6 +42226,9 @@
                     "Life Orb": 0.792,
                     "Choice Scarf": 0.1309,
                     "Choice Specs": 0.0771
+                },
+                "abilities": {
+                    "Psychic Surge": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -41734,6 +42271,9 @@
                     "Choice Specs": 0.0624,
                     "Expert Belt": 0.0531
                 },
+                "abilities": {
+                    "Stakeout": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41774,6 +42314,9 @@
                     "Flame Orb": 0.5866,
                     "Leftovers": 0.3096,
                     "Chesto Berry": 0.1038
+                },
+                "abilities": {
+                    "Guts": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -41816,6 +42359,11 @@
                     "Leftovers": 0.8188,
                     "Focus Sash": 0.1071,
                     "Choice Band": 0.0741
+                },
+                "abilities": {
+                    "Sturdy": 0.4447,
+                    "Lightning Rod": 0.396,
+                    "Iron Barbs": 0.1592
                 },
                 "ivs": {
                     "hp": 31,
@@ -41864,6 +42412,9 @@
                     "Leftovers": 0.0584,
                     "Choice Scarf": 0.0315
                 },
+                "abilities": {
+                    "Serene Grace": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41883,7 +42434,7 @@
             }
         }
     },
-    "toxtricity-low-key": {
+    "toxtricitylowkey": {
         "level": 82,
         "abilities": {
             "Punk Rock": 1
@@ -41906,6 +42457,9 @@
                 "items": {
                     "Choice Scarf": 0.6873,
                     "Choice Specs": 0.3127
+                },
+                "abilities": {
+                    "Punk Rock": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -41948,6 +42502,9 @@
                     "Heavy-Duty Boots": 0.2192,
                     "Leftovers": 0.004
                 },
+                "abilities": {
+                    "Shell Armor": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -41967,7 +42524,7 @@
             }
         }
     },
-    "type: null": {
+    "typenull": {
         "level": 86,
         "abilities": {
             "Battle Armor": 1
@@ -41984,6 +42541,9 @@
                 },
                 "items": {
                     "Eviolite": 1
+                },
+                "abilities": {
+                    "Battle Armor": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42023,6 +42583,9 @@
                     "Life Orb": 0.7996,
                     "Choice Scarf": 0.1361,
                     "Choice Band": 0.0643
+                },
+                "abilities": {
+                    "Rock Head": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42064,6 +42627,9 @@
                 "items": {
                     "Scope Lens": 1
                 },
+                "abilities": {
+                    "Super Luck": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42083,7 +42649,7 @@
             }
         }
     },
-    "urshifu-gmax": {
+    "urshifugmax": {
         "level": 74,
         "abilities": {
             "Unseen Fist": 1
@@ -42100,6 +42666,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Unseen Fist": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42119,7 +42688,7 @@
             }
         }
     },
-    "urshifu-rapid-strike-gmax": {
+    "urshifurapidstrikegmax": {
         "level": 76,
         "abilities": {
             "Unseen Fist": 1
@@ -42138,6 +42707,9 @@
                     "Life Orb": 0.8163,
                     "Choice Scarf": 0.1306,
                     "Choice Band": 0.0531
+                },
+                "abilities": {
+                    "Unseen Fist": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42176,6 +42748,9 @@
                 "items": {
                     "Light Clay": 0.7207,
                     "Assault Vest": 0.2793
+                },
+                "abilities": {
+                    "Snow Warning": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42218,6 +42793,9 @@
                     "Choice Specs": 0.0636,
                     "Choice Scarf": 0.0376,
                     "Choice Band": 0.0188
+                },
+                "abilities": {
+                    "Victory Star": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42262,6 +42840,10 @@
                 "items": {
                     "Choice Specs": 1
                 },
+                "abilities": {
+                    "Water Veil": 0.6574,
+                    "Oblivious": 0.3426
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42304,6 +42886,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Thick Fat": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42342,6 +42927,9 @@
                     "Expert Belt": 0.6699,
                     "Choice Specs": 0.2041,
                     "Focus Sash": 0.126
+                },
+                "abilities": {
+                    "Schooling": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42384,6 +42972,9 @@
                 },
                 "items": {
                     "Sitrus Berry": 1
+                },
+                "abilities": {
+                    "Shadow Tag": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42429,6 +43020,9 @@
                     "Heavy-Duty Boots": 0.939,
                     "Leftovers": 0.061
                 },
+                "abilities": {
+                    "Magic Bounce": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42470,6 +43064,9 @@
                 },
                 "items": {
                     "Power Herb": 1
+                },
+                "abilities": {
+                    "Fairy Aura": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42516,6 +43113,9 @@
                     "Choice Specs": 0.2424,
                     "Blunder Policy": 0.1938
                 },
+                "abilities": {
+                    "Beast Boost": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42557,6 +43157,9 @@
                     "Assault Vest": 0.1245,
                     "Life Orb": 0.0429,
                     "Leftovers": 0.0063
+                },
+                "abilities": {
+                    "Dark Aura": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42600,6 +43203,9 @@
                     "Assault Vest": 0.3744,
                     "Choice Band": 0.0606
                 },
+                "abilities": {
+                    "Volt Absorb": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42636,6 +43242,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Power Construct": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42655,7 +43264,7 @@
             }
         }
     },
-    "zygarde-10%": {
+    "zygarde10": {
         "level": 81,
         "abilities": {
             "Aura Break": 1
@@ -42674,6 +43283,9 @@
                     "Life Orb": 0.6477,
                     "Choice Band": 0.2077,
                     "Focus Sash": 0.1445
+                },
+                "abilities": {
+                    "Aura Break": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42720,6 +43332,9 @@
                     "Life Orb": 0.1528,
                     "Focus Sash": 0.0368
                 },
+                "abilities": {
+                    "Swarm": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42757,6 +43372,10 @@
                 "items": {
                     "Black Sludge": 0.8445,
                     "Focus Sash": 0.1555
+                },
+                "abilities": {
+                    "Sniper": 0.5011,
+                    "Swarm": 0.4989
                 },
                 "ivs": {
                     "hp": 31,
@@ -42797,6 +43416,9 @@
                     "Life Orb": 0.0805,
                     "Focus Sash": 0.0222
                 },
+                "abilities": {
+                    "Simple": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42834,6 +43456,9 @@
                 "items": {
                     "Leftovers": 0.6162,
                     "Lum Berry": 0.3838
+                },
+                "abilities": {
+                    "Levitate": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42877,6 +43502,9 @@
                 "items": {
                     "Choice Specs": 1
                 },
+                "abilities": {
+                    "Forecast": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42914,6 +43542,9 @@
                 "items": {
                     "Leftovers": 0.9639,
                     "Focus Sash": 0.0361
+                },
+                "abilities": {
+                    "Tangled Feet": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -42953,6 +43584,9 @@
                     "Life Orb": 0.503,
                     "Leftovers": 0.497
                 },
+                "abilities": {
+                    "Wonder Skin": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -42991,6 +43625,9 @@
                 "items": {
                     "Black Sludge": 1
                 },
+                "abilities": {
+                    "Shield Dust": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43026,6 +43663,9 @@
                 },
                 "items": {
                     "Choice Band": 1
+                },
+                "abilities": {
+                    "Sniper": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -43069,6 +43709,9 @@
                 "items": {
                     "White Herb": 1
                 },
+                "abilities": {
+                    "Swift Swim": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43105,6 +43748,10 @@
                 },
                 "items": {
                     "White Herb": 1
+                },
+                "abilities": {
+                    "Water Veil": 0.9508,
+                    "Swift Swim": 0.0492
                 },
                 "ivs": {
                     "hp": 31,
@@ -43143,6 +43790,9 @@
                 "items": {
                     "Leftovers": 0.9928,
                     "Focus Sash": 0.0072
+                },
+                "abilities": {
+                    "Protean": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -43184,6 +43834,9 @@
                 "items": {
                     "Light Clay": 0.9662,
                     "Leftovers": 0.0338
+                },
+                "abilities": {
+                    "Early Bird": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -43231,6 +43884,9 @@
                     "Life Orb": 0.1697,
                     "Focus Sash": 0.0416
                 },
+                "abilities": {
+                    "Tinted Lens": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43266,6 +43922,9 @@
                 },
                 "items": {
                     "Leftovers": 1
+                },
+                "abilities": {
+                    "Dry Skin": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -43307,6 +43966,9 @@
                     "Life Orb": 0.1533,
                     "Choice Band": 0.1151
                 },
+                "abilities": {
+                    "Tangled Feet": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43345,6 +44007,10 @@
                 "items": {
                     "Choice Scarf": 0.6566,
                     "Choice Band": 0.3434
+                },
+                "abilities": {
+                    "Defiant": 0.6796,
+                    "Vital Spirit": 0.3204
                 },
                 "ivs": {
                     "hp": 31,
@@ -43385,6 +44051,9 @@
                     "Life Orb": 0.2009,
                     "Focus Sash": 0.04
                 },
+                "abilities": {
+                    "Thick Fat": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43422,6 +44091,9 @@
                 },
                 "items": {
                     "Flame Orb": 1
+                },
+                "abilities": {
+                    "Guts": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -43462,6 +44134,9 @@
                     "Life Orb": 0.2128,
                     "Focus Sash": 0.1607
                 },
+                "abilities": {
+                    "Tangled Feet": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43498,6 +44173,10 @@
                 },
                 "items": {
                     "Choice Band": 1
+                },
+                "abilities": {
+                    "Intimidate": 0.6835,
+                    "Sap Sipper": 0.3165
                 },
                 "ivs": {
                     "hp": 31,
@@ -43536,6 +44215,9 @@
                 },
                 "items": {
                     "Flame Orb": 1
+                },
+                "abilities": {
+                    "Guts": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -43577,6 +44259,9 @@
                 },
                 "items": {
                     "Choice Specs": 1
+                },
+                "abilities": {
+                    "Levitate": 1
                 },
                 "ivs": {
                     "hp": 31,
@@ -43621,6 +44306,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Overcoat": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43640,7 +44328,7 @@
             }
         }
     },
-    "wormadam-sandy": {
+    "wormadamsandy": {
         "level": 88,
         "abilities": {
             "Overcoat": 1
@@ -43658,6 +44346,9 @@
                     "Leftovers": 0.8262,
                     "Focus Sash": 0.1738
                 },
+                "abilities": {
+                    "Overcoat": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43677,7 +44368,7 @@
             }
         }
     },
-    "wormadam-trash": {
+    "wormadamtrash": {
         "level": 88,
         "abilities": {
             "Overcoat": 1
@@ -43700,6 +44391,9 @@
                 "items": {
                     "Leftovers": 1
                 },
+                "abilities": {
+                    "Overcoat": 1
+                },
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -43719,7 +44413,7 @@
             }
         }
     },
-    "abomasnow-mega": {
+    "abomasnowmega": {
         "level": 84,
         "abilities": {
             "Snow Warning": 1
@@ -43760,7 +44454,7 @@
             "hp": 77
         }
     },
-    "absol-mega": {
+    "absolmega": {
         "level": 82,
         "abilities": {
             "Justified": 1
@@ -43805,7 +44499,7 @@
             }
         }
     },
-    "aerodactyl-mega": {
+    "aerodactylmega": {
         "level": 78,
         "abilities": {
             "Unnerve": 1
@@ -43849,7 +44543,7 @@
             }
         }
     },
-    "aggron-mega": {
+    "aggronmega": {
         "level": 81,
         "abilities": {
             "Sturdy": 1
@@ -43894,7 +44588,7 @@
             }
         }
     },
-    "alakazam-mega": {
+    "alakazammega": {
         "level": 78,
         "abilities": {
             "Magic Guard": 1
@@ -43935,7 +44629,7 @@
             "atk": 0
         }
     },
-    "altaria-mega": {
+    "altariamega": {
         "level": 80,
         "abilities": {
             "Natural Cure": 1
@@ -44010,7 +44704,7 @@
             }
         }
     },
-    "ampharos-mega": {
+    "ampharosmega": {
         "level": 84,
         "abilities": {
             "Static": 1
@@ -44073,7 +44767,7 @@
             "atk": 0
         }
     },
-    "audino-mega": {
+    "audinomega": {
         "level": 92,
         "abilities": {
             "Regenerator": 1
@@ -44133,7 +44827,7 @@
             "atk": 0
         }
     },
-    "banette-mega": {
+    "banettemega": {
         "level": 87,
         "abilities": {
             "Frisk": 1
@@ -44178,7 +44872,7 @@
             }
         }
     },
-    "beedrill-mega": {
+    "beedrillmega": {
         "level": 77,
         "abilities": {
             "Swarm": 1
@@ -44252,7 +44946,7 @@
             }
         }
     },
-    "blastoise-mega": {
+    "blastoisemega": {
         "level": 82,
         "abilities": {
             "Rain Dish": 1
@@ -44295,7 +44989,7 @@
             }
         }
     },
-    "blaziken-mega": {
+    "blazikenmega": {
         "level": 73,
         "abilities": {
             "Speed Boost": 1
@@ -44339,7 +45033,7 @@
             }
         }
     },
-    "camerupt-mega": {
+    "cameruptmega": {
         "level": 88,
         "abilities": {
             "Solid Rock": 1
@@ -44379,7 +45073,7 @@
             "atk": 0
         }
     },
-    "charizard-mega-x": {
+    "charizardmegax": {
         "level": 76,
         "abilities": {
             "Blaze": 1
@@ -44420,7 +45114,7 @@
             "hp": 81
         }
     },
-    "charizard-mega-y": {
+    "charizardmegay": {
         "level": 76,
         "abilities": {
             "Blaze": 1
@@ -44482,7 +45176,7 @@
             "atk": 0
         }
     },
-    "diancie-mega": {
+    "dianciemega": {
         "level": 75,
         "abilities": {
             "Clear Body": 1
@@ -44525,7 +45219,7 @@
             }
         }
     },
-    "floette-eternal": {
+    "floetteeternal": {
         "level": 82,
         "abilities": {
             "Flower Veil": 1
@@ -44647,7 +45341,7 @@
             }
         }
     },
-    "gallade-mega": {
+    "gallademega": {
         "level": 78,
         "abilities": {
             "Justified": 1
@@ -44734,7 +45428,7 @@
             }
         }
     },
-    "garchomp-mega": {
+    "garchompmega": {
         "level": 77,
         "abilities": {
             "Rough Skin": 1
@@ -44809,7 +45503,7 @@
             }
         }
     },
-    "gardevoir-mega": {
+    "gardevoirmega": {
         "level": 80,
         "abilities": {
             "Trace": 1
@@ -44850,7 +45544,7 @@
             "atk": 0
         }
     },
-    "gengar-mega": {
+    "gengarmega": {
         "level": 78,
         "abilities": {
             "Cursed Body": 1
@@ -44912,7 +45606,7 @@
             "atk": 0
         }
     },
-    "glalie-mega": {
+    "glaliemega": {
         "level": 84,
         "abilities": {
             "Inner Focus": 1
@@ -44999,7 +45693,7 @@
             }
         }
     },
-    "groudon-primal": {
+    "groudonprimal": {
         "level": 66,
         "abilities": {
             "Drought": 1
@@ -45073,7 +45767,7 @@
             }
         }
     },
-    "gyarados-mega": {
+    "gyaradosmega": {
         "level": 75,
         "abilities": {
             "Intimidate": 1
@@ -45116,7 +45810,7 @@
             }
         }
     },
-    "heracross-mega": {
+    "heracrossmega": {
         "level": 82,
         "abilities": {
             "Moxie": 1
@@ -45159,7 +45853,7 @@
             }
         }
     },
-    "houndoom-mega": {
+    "houndoommega": {
         "level": 81,
         "abilities": {
             "Flash Fire": 1
@@ -45198,7 +45892,7 @@
             "atk": 0
         }
     },
-    "kangaskhan-mega": {
+    "kangaskhanmega": {
         "level": 76,
         "abilities": {
             "Scrappy": 1
@@ -45361,7 +46055,7 @@
             "atk": 0
         }
     },
-    "kyogre-primal": {
+    "kyogreprimal": {
         "level": 72,
         "abilities": {
             "Drizzle": 1
@@ -45420,7 +46114,7 @@
             "atk": 0
         }
     },
-    "latias-mega": {
+    "latiasmega": {
         "level": 78,
         "abilities": {
             "Levitate": 1
@@ -45458,7 +46152,7 @@
             "atk": 0
         }
     },
-    "latios-mega": {
+    "latiosmega": {
         "level": 80,
         "abilities": {
             "Levitate": 1
@@ -45496,7 +46190,7 @@
             "atk": 0
         }
     },
-    "lopunny-mega": {
+    "lopunnymega": {
         "level": 77,
         "abilities": {
             "Limber": 1
@@ -45540,7 +46234,7 @@
             }
         }
     },
-    "lucario-mega": {
+    "lucariomega": {
         "level": 75,
         "abilities": {
             "Justified": 1
@@ -45603,7 +46297,7 @@
             }
         }
     },
-    "manectric-mega": {
+    "manectricmega": {
         "level": 79,
         "abilities": {
             "Lightning Rod": 1
@@ -45643,7 +46337,7 @@
             "def": 30
         }
     },
-    "mawile-mega": {
+    "mawilemega": {
         "level": 80,
         "abilities": {
             "Intimidate": 1
@@ -45686,7 +46380,7 @@
             }
         }
     },
-    "medicham-mega": {
+    "medichammega": {
         "level": 78,
         "abilities": {
             "Pure Power": 1
@@ -45727,7 +46421,7 @@
             "hp": 81
         }
     },
-    "metagross-mega": {
+    "metagrossmega": {
         "level": 75,
         "abilities": {
             "Clear Body": 1
@@ -45802,7 +46496,7 @@
             }
         }
     },
-    "mewtwo-mega-x": {
+    "mewtwomegax": {
         "level": 70,
         "abilities": {
             "Unnerve": 1
@@ -45845,7 +46539,7 @@
             }
         }
     },
-    "mewtwo-mega-y": {
+    "mewtwomegay": {
         "level": 70,
         "abilities": {
             "Unnerve": 1
@@ -45885,7 +46579,7 @@
             "atk": 0
         }
     },
-    "pidgeot-mega": {
+    "pidgeotmega": {
         "level": 79,
         "abilities": {
             "Big Pecks": 1
@@ -45929,7 +46623,7 @@
             }
         }
     },
-    "pinsir-mega": {
+    "pinsirmega": {
         "level": 74,
         "abilities": {
             "Moxie": 1
@@ -45970,7 +46664,7 @@
             "hp": 81
         }
     },
-    "raticate-alola": {
+    "raticatealola": {
         "level": 89,
         "abilities": {
             "Hustle": 1
@@ -46048,7 +46742,7 @@
             }
         }
     },
-    "rayquaza-mega": {
+    "rayquazamega": {
         "level": 66,
         "abilities": {
             "Air Lock": 1
@@ -46093,7 +46787,7 @@
             }
         }
     },
-    "sableye-mega": {
+    "sableyemega": {
         "level": 87,
         "abilities": {
             "Prankster": 1
@@ -46131,7 +46825,7 @@
             "atk": 0
         }
     },
-    "salamence-mega": {
+    "salamencemega": {
         "level": 72,
         "abilities": {
             "Intimidate": 1
@@ -46200,7 +46894,7 @@
             "hp": 81
         }
     },
-    "sceptile-mega": {
+    "sceptilemega": {
         "level": 82,
         "abilities": {
             "Overgrow": 1
@@ -46275,7 +46969,7 @@
             }
         }
     },
-    "scizor-mega": {
+    "scizormega": {
         "level": 76,
         "abilities": {
             "Light Metal": 1
@@ -46352,7 +47046,7 @@
             }
         }
     },
-    "sharpedo-mega": {
+    "sharpedomega": {
         "level": 82,
         "abilities": {
             "Speed Boost": 1
@@ -46546,7 +47240,7 @@
             "atk": 0
         }
     },
-    "slowbro-mega": {
+    "slowbromega": {
         "level": 84,
         "abilities": {
             "Regenerator": 1
@@ -46585,7 +47279,7 @@
             "atk": 0
         }
     },
-    "steelix-mega": {
+    "steelixmega": {
         "level": 82,
         "abilities": {
             "Sturdy": 1
@@ -46628,7 +47322,7 @@
             }
         }
     },
-    "swampert-mega": {
+    "swampertmega": {
         "level": 81,
         "abilities": {
             "Damp": 1
@@ -46671,7 +47365,7 @@
             }
         }
     },
-    "tyranitar-mega": {
+    "tyranitarmega": {
         "level": 77,
         "abilities": {
             "Sand Stream": 1
@@ -46715,7 +47409,7 @@
             }
         }
     },
-    "venusaur-mega": {
+    "venusaurmega": {
         "level": 79,
         "abilities": {
             "Chlorophyll": 1
@@ -46834,7 +47528,7 @@
             }
         }
     },
-    "eevee-starter": {
+    "eeveestarter": {
         "level": 100,
         "roles": {
             "standard": {
@@ -46848,6 +47542,7 @@
                     "protect": 0.4864
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -46880,6 +47575,7 @@
                     "thunderwave": 0.748
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -46914,6 +47610,7 @@
                     "whirlwind": 0.5254
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -46946,6 +47643,7 @@
                     "icebeam": 0.7448
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -46979,6 +47677,7 @@
                     "flamethrower": 0.3059
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47014,6 +47713,7 @@
                     "lightscreen": 0.732
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47048,6 +47748,7 @@
                     "toxic": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47080,6 +47781,7 @@
                     "stealthrock": 0.6205
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47099,7 +47801,7 @@
             }
         }
     },
-    "pikachu-starter": {
+    "pikachustarter": {
         "level": 100,
         "roles": {
             "standard": {
@@ -47112,6 +47814,7 @@
                     "zippyzap": 0.1904
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47147,6 +47850,7 @@
                     "psychic": 0.7314
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47183,6 +47887,7 @@
                     "hydropump": 0.2978
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47218,6 +47923,7 @@
                     "leechseed": 0.7402
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -47980,6 +48686,7 @@
                     "reflect": 0.3323
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48012,6 +48719,7 @@
                     "swordsdance": 0.3378
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48043,6 +48751,7 @@
                     "swordsdance": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48077,6 +48786,7 @@
                     "counter": 0.2271
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48111,6 +48821,7 @@
                     "counter": 0.2329
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48146,6 +48857,7 @@
                     "psychic": 0.1615
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48177,6 +48889,7 @@
                     "seismictoss": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48209,6 +48922,7 @@
                     "bodyslam": 0.498
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48240,6 +48954,7 @@
                     "drillpeck": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48272,6 +48987,7 @@
                     "hyperbeam": 0.572
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48312,6 +49028,7 @@
                     "rest": 0.1979
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48345,6 +49062,7 @@
                     "reflect": 0.4701
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48376,6 +49094,7 @@
                     "rockslide": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48407,6 +49126,7 @@
                     "stunspore": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48440,6 +49160,7 @@
                     "megadrain": 0.3659
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48471,6 +49192,7 @@
                     "rockslide": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48503,6 +49225,7 @@
                     "swordsdance": 0.3296
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48534,6 +49257,7 @@
                     "surf": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48565,6 +49289,7 @@
                     "rockslide": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48598,6 +49323,7 @@
                     "thunderbolt": 0.3287
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48630,6 +49356,7 @@
                     "flamethrower": 0.6636
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48663,6 +49390,7 @@
                     "megadrain": 0.3605
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48696,6 +49424,7 @@
                     "doubleedge": 0.3254
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48727,6 +49456,7 @@
                     "swordsdance": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48760,6 +49490,7 @@
                     "sing": 0.3315
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48792,6 +49523,7 @@
                     "hydropump": 0.3272
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48831,6 +49563,7 @@
                     "counter": 0.1992
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48862,6 +49595,7 @@
                     "thunderbolt": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48894,6 +49628,7 @@
                     "stomp": 0.2569
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48926,6 +49661,7 @@
                     "counter": 0.3353
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48958,6 +49694,7 @@
                     "counter": 0.3343
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -48991,6 +49728,7 @@
                     "mimic": 0.2445
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49024,6 +49762,7 @@
                     "counter": 0.3203
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49056,6 +49795,7 @@
                     "thunder": 0.4973
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49075,7 +49815,7 @@
             }
         }
     },
-    "nidoran-f": {
+    "nidoranf": {
         "level": 90,
         "roles": {
             "standard": {
@@ -49088,6 +49828,7 @@
                     "doublekick": 0.4818
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49107,7 +49848,7 @@
             }
         }
     },
-    "nidoran-m": {
+    "nidoranm": {
         "level": 90,
         "roles": {
             "standard": {
@@ -49120,6 +49861,7 @@
                     "doublekick": 0.4969
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49153,6 +49895,7 @@
                     "doubleedge": 0.3305
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49186,6 +49929,7 @@
                     "doubleedge": 0.3286
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49218,6 +49962,7 @@
                     "swordsdance": 0.3247
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49250,6 +49995,7 @@
                     "hydropump": 0.4799
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49282,6 +50028,7 @@
                     "swordsdance": 0.3413
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49316,6 +50063,7 @@
                     "substitute": 0.1618
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49350,6 +50098,7 @@
                     "mirrormove": 0.1642
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49388,6 +50137,7 @@
                     "psychic": 0.2374
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49421,6 +50171,7 @@
                     "stomp": 0.1808
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49455,6 +50206,7 @@
                     "rest": 0.1977
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49488,6 +50240,7 @@
                     "doubleedge": 0.1642
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49519,6 +50272,7 @@
                     "substitute": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49550,6 +50304,7 @@
                     "swordsdance": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49581,6 +50336,7 @@
                     "surf": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49612,6 +50368,7 @@
                     "surf": 1
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49646,6 +50403,7 @@
                     "blizzard": 0.1682
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49680,6 +50438,7 @@
                     "substitute": 0.2454
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49713,6 +50472,7 @@
                     "hydropump": 0.329
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49752,6 +50512,7 @@
                     "hydropump": 0.3385
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49790,6 +50551,7 @@
                     "barrier": 0.3428
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49822,6 +50584,7 @@
                     "megadrain": 0.4994
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49854,6 +50617,7 @@
                     "thunder": 0.4898
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49888,6 +50652,7 @@
                     "reflect": 0.1679
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49922,6 +50687,7 @@
                     "seismictoss": 0.3098
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49954,6 +50720,7 @@
                     "swordsdance": 0.341
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,
@@ -49986,6 +50753,7 @@
                     "wingattack": 0.3557
                 },
                 "items": null,
+                "abilities": null,
                 "ivs": {
                     "hp": 31,
                     "atk": 31,

@@ -42,13 +42,13 @@ class MovesetProcessor(BaseProcessor):
     def process_data(self, data):
         for i in data.keys():
             for pokemon in data[i].keys():
-                self.process_pokemon(pokemon.lower(), data[i][pokemon])
+                self.process_pokemon(normalize_name(pokemon), data[i][pokemon])
 
     def process_pokemon(self, pokemon: str, data: dict):
         if pokemon not in self.pokemon_names:
             self.pokemon_names.append(pokemon)
             data = self.normalize_data(data)
-            self.data[pokemon.lower()] = data
+            self.data[pokemon] = data
 
     def normalize_data(self, data: dict):
         data = self.normalize_roles(data)
@@ -61,7 +61,8 @@ class MovesetProcessor(BaseProcessor):
                 'standard': {
                     'weight': 1,
                     'moves': {normalize_name(move): data['moves'][move] for move in data['moves']},
-                    'items': data['items'] if 'items' in data.keys() else None,
+                    'items': data.get('items', None),
+                    'abilities': data.get('abilities', None)
                 }
             }
 

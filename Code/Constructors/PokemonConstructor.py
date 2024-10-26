@@ -32,6 +32,8 @@ class PokemonConstructor(BaseConstructor):
 
             role = get_choice(list(moveset_data['roles'].keys()), weights=[role['weight'] for role in moveset_data['roles'].values()])[0]
             role_data = moveset_data['roles'][role]
+            if not role_data.get('abilities', False):
+                print(name)
 
             pokemon = Pokemon(
                 name=name,

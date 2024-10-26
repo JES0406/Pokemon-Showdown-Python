@@ -22,5 +22,5 @@ class TeamConstructor(BaseConstructor):
         return team
     
     def create_random(self, n):
-        pokemons = random.sample(self.pokemon_constructor.pokemons)
+        pokemons = random.sample(self.pokemon_constructor.pokemons, n)
         return self.create(pokemons)
